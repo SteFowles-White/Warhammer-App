@@ -1,0 +1,166 @@
+{
+    "hex-row-one":{
+        "row-one-hex-one": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            }
+
+        },
+        "row-one-hex-two": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            }
+
+        },
+        "row-one-hex-three": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            }
+
+        },
+        "row-one-hex-four": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            }
+
+        },
+        "row-one-hex-five": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            }
+
+        },
+        "row-one-hex-six": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            }
+
+        },
+        "row-one-hex-seven": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            }
+
+        },
+        "row-one-hex-eight": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            }
+
+        },
+        "row-one-hex-nine": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            }
+
+        },
+        "row-one-hex-ten": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            }
+
+        },
+        "row-one-hex-eleven": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            }
+
+        },
+        "row-one-hex-twelve": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            }
+
+        },
+        "row-one-hex-thirteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            }
+
+        },
+        "row-one-hex-fourteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            }
+
+        },
+        "row-one-hex-fifteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            }
+
+        },
+        "row-one-hex-sixteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            }
+
+        },
+        "row-one-hex-seventeen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            }
+
+        },
+        "row-one-hex-eighteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            }
+
+        }
+    }
+}

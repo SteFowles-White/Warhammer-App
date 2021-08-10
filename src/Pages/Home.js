@@ -1,7 +1,22 @@
 import React from "react";
+import mapData from '../Data/hex-row.json';
 import CampagnImage from '../assets/images/BattleCompanies_MapCampaign.jpg'
 
+import HexContainer from "../Components/Hex/HexContainer.js";
+import Hex from "../Components/Hex/Hex.js";
+
 const HomePage = () => {
+  const mapDataContainer = Object.entries(mapData);
+
+  const formateDataHandler = () => {
+    for (const iterator of mapDataContainer) {
+        for (const key in iterator[1]) {
+          console.log(iterator[1][key]);
+        }
+    }
+}
+
+
   return (
     <main>
       <header className="container-fluid text-center">
@@ -79,6 +94,9 @@ const HomePage = () => {
               <section className="col-9 col-sm-9 map__container">
                 <div className="map__inner__container">
                   <img src={CampagnImage} alt=""/>
+
+
+
                   <div className="hex__container hex-row">     
                     <div className="hex">
                       <div className="hex_top"></div>  
@@ -427,12 +445,815 @@ const HomePage = () => {
                       <div className="hex_bottom"></div>
                     </div>
                   </div>
-                  <div className="hex-row-3">
+                  <div className="hex__container hex-row-5">
                     <div className="hex">
                       <div className="hex_top"></div>  
                       <div className="hex_body"></div>
                       <div className="hex_bottom"></div>
                     </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                  </div>
+                  <div className="hex__container hex-row-6">
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                  </div>
+                  <div className="hex__container hex-row-7">
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                  </div>
+                  <div className="hex__container hex-row-8">
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                  </div>
+                  <div className="hex__container hex-row-9">
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                  </div>
+                  <div className="hex__container hex-row-10">
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                  </div>
+                  <div className="hex__container hex-row-11">
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                  </div>
+                  <div className="hex__container hex-row-12">
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                  </div>
+                  <div className="hex__container hex-row-13">
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                    <div className="hex">
+                      <div className="hex_top"></div>  
+                      <div className="hex_body"></div>
+                      <div className="hex_bottom"></div>
+                    </div>
+                  </div>
+                  <div className="hex__container hex-row-14">
                     <div className="hex">
                       <div className="hex_top"></div>  
                       <div className="hex_body"></div>
