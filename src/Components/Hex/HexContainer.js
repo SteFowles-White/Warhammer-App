@@ -10,11 +10,7 @@ const HexContainer = (props) => {
     for (const key in HexContainerInformation) {
         HexArray.push(HexContainerInformation[key]);
     }
-    console.log(HexArray);
 
-
-    // console.log(HexContainerInformation);
-    
     return (
         <div className={HexContainerClasses}> 
             {
@@ -22,8 +18,6 @@ const HexContainer = (props) => {
                     return <Hex data={result} key={key}/>
                 })
             }
-
-
         </div>
     )
 }

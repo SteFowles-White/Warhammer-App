@@ -7,8 +7,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "0:0",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 0,
+            "y": 0
 
         },
         "row-one-hex-two": {
@@ -18,8 +18,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "0:1",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 1,
+            "y": 0
 
         },
         "row-one-hex-three": {
@@ -29,8 +29,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "0:2",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 2,
+            "y": 0
 
         },
         "row-one-hex-four": {
@@ -40,8 +40,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "0:3",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 3,
+            "y": 0
 
         },
         "row-one-hex-five": {
@@ -51,8 +51,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "0:4",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 4,
+            "y": 0
 
         },
         "row-one-hex-six": {
@@ -62,8 +62,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "0:5",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 5,
+            "y": 0
 
         },
         "row-one-hex-seven": {
@@ -73,8 +73,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "0:6",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 6,
+            "y": 0
 
         },
         "row-one-hex-eight": {
@@ -84,8 +84,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "0:7",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 7,
+            "y": 0
 
         },
         "row-one-hex-nine": {
@@ -95,8 +95,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "0:8",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 8,
+            "y": 0
 
         },
         "row-one-hex-ten": {
@@ -106,8 +106,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "0:9",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 9,
+            "y": 0
 
         },
         "row-one-hex-eleven": {
@@ -117,8 +117,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "0:10",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 10,
+            "y": 0
 
         },
         "row-one-hex-twelve": {
@@ -128,9 +128,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "0:11",
-            "avaiableMoveLocation": ["0:1", "1:0"]
-
+            "x": 11,
+            "y": 0
         },
         "row-one-hex-thirteen": {
             "income": ".50",
@@ -139,8 +138,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "0:12",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 12,
+            "y": 0
 
         },
         "row-one-hex-fourteen": {
@@ -150,8 +149,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "0:13",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 13,
+            "y": 0
 
         },
         "row-one-hex-fifteen": {
@@ -161,8 +160,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "0:14",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 14,
+            "y": 0
 
         },
         "row-one-hex-sixteen": {
@@ -172,8 +171,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "0:15",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 15,
+            "y": 0
 
         },
         "row-one-hex-seventeen": {
@@ -183,8 +182,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "0:16",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 16,
+            "y": 0
 
         }
     },
@@ -196,8 +195,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "1:0",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 0,
+            "y": 1
         },
         "row-two-hex-two": {
             "income": ".50",
@@ -206,8 +205,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "1:1",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 1,
+            "y": 1
 
         },
         "row-two-hex-three": {
@@ -217,8 +216,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "1:2",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 2,
+            "y": 1
 
         },
         "row-two-hex-four": {
@@ -228,8 +227,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "1:3",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 3,
+            "y": 1
 
         },
         "row-two-hex-five": {
@@ -239,8 +238,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "1:4",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 4,
+            "y": 1
 
         },
         "row-two-hex-six": {
@@ -250,8 +249,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "1:5",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 5,
+            "y": 1
 
         },
         "row-two-hex-seven": {
@@ -261,8 +260,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "1:6",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 6,
+            "y": 1
 
         },
         "row-two-hex-eight": {
@@ -272,8 +271,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "1:7",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 7,
+            "y": 1
 
         },
         "row-two-hex-nine": {
@@ -283,8 +282,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "1:8",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 8,
+            "y": 1
 
         },
         "row-two-hex-ten": {
@@ -294,8 +293,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "1:9",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 9,
+            "y": 1
 
         },
         "row-two-hex-eleven": {
@@ -305,8 +304,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "1:10",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 10,
+            "y": 1
 
         },
         "row-two-hex-twelve": {
@@ -316,8 +315,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "1:11",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 11,
+            "y": 1
 
         },
         "row-two-hex-thirteen": {
@@ -327,8 +326,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "1:12",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 12,
+            "y": 1
 
         },
         "row-two-hex-fourteen": {
@@ -338,8 +337,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "1:13",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 13,
+            "y": 1
 
         },
         "row-two-hex-fifteen": {
@@ -349,8 +348,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "1:14",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 14,
+            "y": 1
 
         },
         "row-two-hex-sixteen": {
@@ -360,8 +359,8 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "1:15",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 15,
+            "y": 1
 
         },
         "row-two-hex-seventeen": {
@@ -371,9 +370,1138 @@
                 "isArmy": false,
                 "currentArmy": []
             },
-            "position": "1:16",
-            "avaiableMoveLocation": ["0:1", "1:0"]
+            "x": 16,
+            "y": 1
 
         }
-    }
+        
+    },
+    "hex-row-three":{
+        "row-three-hex-one": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 0,
+            "y": 2
+        },
+        "row-three-hex-two": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 1,
+            "y": 2
+
+        },
+        "row-three-hex-three": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 2,
+            "y": 2
+
+        },
+        "row-three-hex-four": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 3,
+            "y": 2
+
+        },
+        "row-three-hex-five": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 4,
+            "y": 2
+
+        },
+        "row-three-hex-six": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 5,
+            "y": 2
+
+        },
+        "row-three-hex-seven": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 6,
+            "y": 2
+
+        },
+        "row-three-hex-eight": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 7,
+            "y": 2
+
+        },
+        "row-three-hex-nine": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 8,
+            "y": 2
+
+        },
+        "row-three-hex-ten": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 9,
+            "y": 2
+
+        },
+        "row-three-hex-eleven": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 10,
+            "y": 2
+
+        },
+        "row-three-hex-twelve": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 11,
+            "y": 2
+
+        },
+        "row-three-hex-thirteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 12,
+            "y": 2
+
+        },
+        "row-three-hex-fourteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 13,
+            "y": 2
+
+        },
+        "row-three-hex-fifteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 14,
+            "y": 2
+
+        },
+        "row-three-hex-sixteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 15,
+            "y": 2
+
+        },
+        "row-three-hex-seventeen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 16,
+            "y": 2
+
+        }
+    },
+    "hex-row-four":{
+        "row-four-hex-one": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 0,
+            "y": 3
+        },
+        "row-four-hex-two": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 1,
+            "y": 3
+
+        },
+        "row-four-hex-three": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 2,
+            "y": 3
+
+        },
+        "row-four-hex-four": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 3,
+            "y": 3
+
+        },
+        "row-four-hex-five": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 4,
+            "y": 3
+
+        },
+        "row-four-hex-six": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 5,
+            "y": 3
+
+        },
+        "row-four-hex-seven": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 6,
+            "y": 3
+
+        },
+        "row-four-hex-eight": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 7,
+            "y": 3
+
+        },
+        "row-four-hex-nine": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 8,
+            "y": 3
+
+        },
+        "row-four-hex-ten": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 9,
+            "y": 3
+
+        },
+        "row-four-hex-eleven": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 10,
+            "y": 3
+
+        },
+        "row-four-hex-twelve": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 11,
+            "y": 3
+
+        },
+        "row-four-hex-thirteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 12,
+            "y": 3
+
+        },
+        "row-four-hex-fourteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 13,
+            "y": 3
+
+        },
+        "row-four-hex-fifteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 14,
+            "y": 3
+
+        },
+        "row-four-hex-sixteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 15,
+            "y": 3
+
+        },
+        "row-four-hex-seventeen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 16,
+            "y": 3
+
+        }
+    },
+    "hex-row-five":{
+        "row-five-hex-one": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 0,
+            "y": 4
+        },
+        "row-five-hex-two": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 1,
+            "y": 4
+
+        },
+        "row-five-hex-three": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 2,
+            "y": 4
+
+        },
+        "row-five-hex-four": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 3,
+            "y": 4
+
+        },
+        "row-five-hex-five": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 4,
+            "y": 4
+
+        },
+        "row-five-hex-six": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 5,
+            "y": 4
+
+        },
+        "row-five-hex-seven": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 6,
+            "y": 4
+
+        },
+        "row-five-hex-eight": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 7,
+            "y": 4
+
+        },
+        "row-five-hex-nine": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 8,
+            "y": 4
+
+        },
+        "row-five-hex-ten": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 9,
+            "y": 4
+
+        },
+        "row-five-hex-eleven": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 10,
+            "y": 4
+
+        },
+        "row-five-hex-twelve": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 11,
+            "y": 4
+
+        },
+        "row-five-hex-thirteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 12,
+            "y": 4
+
+        },
+        "row-five-hex-fourteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 13,
+            "y": 4
+
+        },
+        "row-five-hex-fifteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 14,
+            "y": 4
+
+        },
+        "row-five-hex-sixteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 15,
+            "y": 4
+
+        },
+        "row-five-hex-seventeen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 16,
+            "y": 4
+
+        }
+    },
+    "hex-row-six":{
+        "row-six-hex-one": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 0,
+            "y": 5
+        },
+        "row-six-hex-two": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 1,
+            "y": 5
+
+        },
+        "row-six-hex-three": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 2,
+            "y": 5
+
+        },
+        "row-six-hex-four": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 3,
+            "y": 5
+
+        },
+        "row-six-hex-five": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 4,
+            "y": 5
+
+        },
+        "row-six-hex-six": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 5,
+            "y": 5
+
+        },
+        "row-six-hex-seven": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 6,
+            "y": 5
+
+        },
+        "row-six-hex-eight": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 7,
+            "y": 5
+
+        },
+        "row-six-hex-nine": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 8,
+            "y": 5
+
+        },
+        "row-six-hex-ten": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 9,
+            "y": 5
+
+        },
+        "row-six-hex-eleven": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 10,
+            "y": 5
+
+        },
+        "row-six-hex-twelve": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 11,
+            "y": 5
+
+        },
+        "row-six-hex-thirteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 12,
+            "y": 5
+
+        },
+        "row-six-hex-fourteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 13,
+            "y": 5
+
+        },
+        "row-six-hex-fifteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 14,
+            "y": 5
+
+        },
+        "row-six-hex-sixteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 15,
+            "y": 5
+
+        },
+        "row-six-hex-seventeen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 16,
+            "y": 5
+
+        }
+    },
+    "hex-row-seven":{
+        "row-seven-hex-one": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 0,
+            "y": 6
+        },
+        "row-seven-hex-two": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 1,
+            "y": 6
+
+        },
+        "row-seven-hex-three": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 2,
+            "y": 6
+
+        },
+        "row-seven-hex-four": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 3,
+            "y": 6
+
+        },
+        "row-seven-hex-five": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 4,
+            "y": 6
+
+        },
+        "row-seven-hex-six": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 5,
+            "y": 6
+
+        },
+        "row-seven-hex-seven": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 6,
+            "y": 6
+
+        },
+        "row-seven-hex-eight": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 7,
+            "y": 6
+
+        },
+        "row-seven-hex-nine": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 8,
+            "y": 6
+
+        },
+        "row-seven-hex-ten": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 9,
+            "y": 6
+
+        },
+        "row-seven-hex-eleven": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 10,
+            "y": 6
+
+        },
+        "row-seven-hex-twelve": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 11,
+            "y": 6
+
+        },
+        "row-seven-hex-thirteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 12,
+            "y": 6
+
+        },
+        "row-seven-hex-fourteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 13,
+            "y": 6
+
+        },
+        "row-seven-hex-fifteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 14,
+            "y": 6
+
+        },
+        "row-seven-hex-sixteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 15,
+            "y": 6
+
+        },
+        "row-seven-hex-seventeen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 16,
+            "y": 6
+
+        }
+    },
+    "hex-row-eight":{
+        "row-eight-hex-one": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 0,
+            "y": 7
+        },
+        "row-eight-hex-two": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 1,
+            "y": 7
+
+        },
+        "row-eight-hex-three": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 2,
+            "y": 7
+
+        },
+        "row-eight-hex-four": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 3,
+            "y": 7
+
+        },
+        "row-eight-hex-five": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 4,
+            "y": 7
+
+        },
+        "row-eight-hex-six": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 5,
+            "y": 7
+
+        },
+        "row-eight-hex-seven": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 6,
+            "y": 7
+
+        },
+        "row-eight-hex-eight": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 7,
+            "y": 7
+
+        },
+        "row-eight-hex-nine": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 8,
+            "y": 7
+
+        },
+        "row-eight-hex-ten": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 9,
+            "y": 7
+
+        },
+        "row-eight-hex-eleven": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 10,
+            "y": 7
+
+        },
+        "row-eight-hex-twelve": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 11,
+            "y": 7
+
+        },
+        "row-eight-hex-thirteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 12,
+            "y": 7
+
+        },
+        "row-eight-hex-fourteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 13,
+            "y": 7
+
+        },
+        "row-eight-hex-fifteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 14,
+            "y": 7
+
+        },
+        "row-eight-hex-sixteen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 15,
+            "y": 7
+
+        },
+        "row-eight-hex-seventeen": {
+            "income": ".50",
+            "terrain": "sea",
+            "army": {
+                "isArmy": false,
+                "currentArmy": []
+            },
+            "x": 16,
+            "y": 7
+
+        }
+    }    
 }
