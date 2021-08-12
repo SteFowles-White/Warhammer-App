@@ -1,11 +1,17 @@
 import React from "react";
 import mapData from '../Data/hex-row.json';
 import CampagnImage from '../assets/images/BattleCompanies_MapCampaign.jpg'
+// import {DragDropContext} from 'react-beautiful-dnd';
 
 import HexContainer from "../Components/Hex/HexContainer.js";
 
 const HomePage = () => {
   const mapDataContainer = Object.values(mapData);
+
+  // const onDragEndHandler = result => {
+  //   // TODO
+  // }
+
   return (
     <main>
       <header className="container-fluid text-center">
@@ -83,14 +89,12 @@ const HomePage = () => {
               <section className="col-9 col-sm-9 map__container">
                 <div className="map__inner__container">
                   <img src={CampagnImage} alt=""/>
-
                   {
-                    mapDataContainer.map((result, key) => {
-                      let classNumber = key + 1;
-                      return <HexContainer key={key} hex_row={classNumber} data={result}/>
-                    })
-
-                  }
+                      mapDataContainer.map((result, key) => {
+                        let classNumber = key + 1;
+                        return <HexContainer key={key} hex_row={classNumber} data={result}/>
+                      })
+                    }
 
                 </div>
               </section>

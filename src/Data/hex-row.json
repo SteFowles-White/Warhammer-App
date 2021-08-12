@@ -1,6 +1,7 @@
 {
     "hex-row-one":{
         "row-one-hex-one": {
+            "id": "1",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -12,6 +13,7 @@
 
         },
         "row-one-hex-two": {
+            "id": "2",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -23,6 +25,7 @@
 
         },
         "row-one-hex-three": {
+            "id": "3",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -34,6 +37,7 @@
 
         },
         "row-one-hex-four": {
+            "id": "4",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -45,6 +49,7 @@
 
         },
         "row-one-hex-five": {
+            "id": "5",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -56,6 +61,7 @@
 
         },
         "row-one-hex-six": {
+            "id": "6",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -67,6 +73,7 @@
 
         },
         "row-one-hex-seven": {
+            "id": "7",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -78,6 +85,7 @@
 
         },
         "row-one-hex-eight": {
+            "id": "8",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -89,6 +97,7 @@
 
         },
         "row-one-hex-nine": {
+            "id": "9",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -100,6 +109,7 @@
 
         },
         "row-one-hex-ten": {
+            "id": "10",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -111,6 +121,7 @@
 
         },
         "row-one-hex-eleven": {
+            "id": "11",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -122,6 +133,7 @@
 
         },
         "row-one-hex-twelve": {
+            "id": "12",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -132,6 +144,7 @@
             "y": 0
         },
         "row-one-hex-thirteen": {
+            "id": "13",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -143,6 +156,7 @@
 
         },
         "row-one-hex-fourteen": {
+            "id": "14",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -154,6 +168,7 @@
 
         },
         "row-one-hex-fifteen": {
+            "id": "15",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -165,6 +180,7 @@
 
         },
         "row-one-hex-sixteen": {
+            "id": "16",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -176,6 +192,7 @@
 
         },
         "row-one-hex-seventeen": {
+            "id": "17",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -199,6 +216,7 @@
             "y": 1
         },
         "row-two-hex-two": {
+            "id": "18",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -210,6 +228,7 @@
 
         },
         "row-two-hex-three": {
+            "id": "19",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -221,6 +240,7 @@
 
         },
         "row-two-hex-four": {
+            "id": "20",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -232,6 +252,7 @@
 
         },
         "row-two-hex-five": {
+            "id": "21",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -243,6 +264,7 @@
 
         },
         "row-two-hex-six": {
+            "id": "22",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -254,6 +276,7 @@
 
         },
         "row-two-hex-seven": {
+            "id": "23",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -265,6 +288,7 @@
 
         },
         "row-two-hex-eight": {
+            "id": "24",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -276,6 +300,7 @@
 
         },
         "row-two-hex-nine": {
+            "id": "25",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -287,6 +312,7 @@
 
         },
         "row-two-hex-ten": {
+            "id": "26",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -298,6 +324,7 @@
 
         },
         "row-two-hex-eleven": {
+            "id": "27",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -309,6 +336,7 @@
 
         },
         "row-two-hex-twelve": {
+            "id": "28",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -320,6 +348,7 @@
 
         },
         "row-two-hex-thirteen": {
+            "id": "29",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -331,6 +360,7 @@
 
         },
         "row-two-hex-fourteen": {
+            "id": "30",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -342,6 +372,7 @@
 
         },
         "row-two-hex-fifteen": {
+            "id": "31",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -353,6 +384,7 @@
 
         },
         "row-two-hex-sixteen": {
+            "id": "32",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -364,6 +396,7 @@
 
         },
         "row-two-hex-seventeen": {
+            "id": "33",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -378,6 +411,7 @@
     },
     "hex-row-three":{
         "row-three-hex-one": {
+            "id": "34",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -388,6 +422,7 @@
             "y": 2
         },
         "row-three-hex-two": {
+            "id": "35",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -399,6 +434,7 @@
 
         },
         "row-three-hex-three": {
+            "id": "36",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -410,6 +446,7 @@
 
         },
         "row-three-hex-four": {
+            "id": "37",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -421,6 +458,7 @@
 
         },
         "row-three-hex-five": {
+            "id": "38",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -432,6 +470,7 @@
 
         },
         "row-three-hex-six": {
+            "id": "39",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -443,6 +482,7 @@
 
         },
         "row-three-hex-seven": {
+            "id": "40",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -454,6 +494,7 @@
 
         },
         "row-three-hex-eight": {
+            "id": "41",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -465,6 +506,7 @@
 
         },
         "row-three-hex-nine": {
+            "id": "42",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -476,6 +518,7 @@
 
         },
         "row-three-hex-ten": {
+            "id": "43",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -487,6 +530,7 @@
 
         },
         "row-three-hex-eleven": {
+            "id": "44",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -498,6 +542,7 @@
 
         },
         "row-three-hex-twelve": {
+            "id": "45",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -509,6 +554,7 @@
 
         },
         "row-three-hex-thirteen": {
+            "id": "46",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -520,6 +566,7 @@
 
         },
         "row-three-hex-fourteen": {
+            "id": "47",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -531,6 +578,7 @@
 
         },
         "row-three-hex-fifteen": {
+            "id": "48",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -542,6 +590,7 @@
 
         },
         "row-three-hex-sixteen": {
+            "id": "49",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -553,6 +602,7 @@
 
         },
         "row-three-hex-seventeen": {
+            "id": "50",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -566,6 +616,7 @@
     },
     "hex-row-four":{
         "row-four-hex-one": {
+            "id": "51",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -576,6 +627,7 @@
             "y": 3
         },
         "row-four-hex-two": {
+            "id": "52",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -587,6 +639,7 @@
 
         },
         "row-four-hex-three": {
+            "id": "53",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -598,6 +651,7 @@
 
         },
         "row-four-hex-four": {
+            "id": "54",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -609,6 +663,7 @@
 
         },
         "row-four-hex-five": {
+            "id": "55",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -620,6 +675,7 @@
 
         },
         "row-four-hex-six": {
+            "id": "56",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -631,6 +687,7 @@
 
         },
         "row-four-hex-seven": {
+            "id": "57",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -642,6 +699,7 @@
 
         },
         "row-four-hex-eight": {
+            "id": "58",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -653,6 +711,7 @@
 
         },
         "row-four-hex-nine": {
+            "id": "59",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -664,6 +723,7 @@
 
         },
         "row-four-hex-ten": {
+            "id": "60",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -675,6 +735,7 @@
 
         },
         "row-four-hex-eleven": {
+            "id": "61",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -686,6 +747,7 @@
 
         },
         "row-four-hex-twelve": {
+            "id": "62",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -697,6 +759,7 @@
 
         },
         "row-four-hex-thirteen": {
+            "id": "63",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -708,6 +771,7 @@
 
         },
         "row-four-hex-fourteen": {
+            "id": "64",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -719,6 +783,7 @@
 
         },
         "row-four-hex-fifteen": {
+            "id": "65",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -730,6 +795,7 @@
 
         },
         "row-four-hex-sixteen": {
+            "id": "66",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -741,6 +807,7 @@
 
         },
         "row-four-hex-seventeen": {
+            "id": "67",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -754,6 +821,7 @@
     },
     "hex-row-five":{
         "row-five-hex-one": {
+            "id": "68",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -764,6 +832,7 @@
             "y": 4
         },
         "row-five-hex-two": {
+            "id": "69",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -775,6 +844,7 @@
 
         },
         "row-five-hex-three": {
+            "id": "70",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -786,6 +856,7 @@
 
         },
         "row-five-hex-four": {
+            "id": "71",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -797,6 +868,7 @@
 
         },
         "row-five-hex-five": {
+            "id": "72",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -808,6 +880,7 @@
 
         },
         "row-five-hex-six": {
+            "id": "73",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -819,6 +892,7 @@
 
         },
         "row-five-hex-seven": {
+            "id": "74",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -830,6 +904,7 @@
 
         },
         "row-five-hex-eight": {
+            "id": "75",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -841,6 +916,7 @@
 
         },
         "row-five-hex-nine": {
+            "id": "76",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -852,6 +928,7 @@
 
         },
         "row-five-hex-ten": {
+            "id": "77",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -863,6 +940,7 @@
 
         },
         "row-five-hex-eleven": {
+            "id": "78",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -874,6 +952,7 @@
 
         },
         "row-five-hex-twelve": {
+            "id": "79",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -885,6 +964,7 @@
 
         },
         "row-five-hex-thirteen": {
+            "id": "80",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -896,6 +976,7 @@
 
         },
         "row-five-hex-fourteen": {
+            "id": "81",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -907,6 +988,7 @@
 
         },
         "row-five-hex-fifteen": {
+            "id": "82",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -918,6 +1000,7 @@
 
         },
         "row-five-hex-sixteen": {
+            "id": "83",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -929,6 +1012,7 @@
 
         },
         "row-five-hex-seventeen": {
+            "id": "84",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -942,6 +1026,7 @@
     },
     "hex-row-six":{
         "row-six-hex-one": {
+            "id": "85",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -952,6 +1037,7 @@
             "y": 5
         },
         "row-six-hex-two": {
+            "id": "86",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -963,6 +1049,7 @@
 
         },
         "row-six-hex-three": {
+            "id": "87",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -974,6 +1061,7 @@
 
         },
         "row-six-hex-four": {
+            "id": "88",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -985,6 +1073,7 @@
 
         },
         "row-six-hex-five": {
+            "id": "89",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -996,6 +1085,7 @@
 
         },
         "row-six-hex-six": {
+            "id": "90",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1007,6 +1097,7 @@
 
         },
         "row-six-hex-seven": {
+            "id": "91",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1018,6 +1109,7 @@
 
         },
         "row-six-hex-eight": {
+            "id": "92",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1029,6 +1121,7 @@
 
         },
         "row-six-hex-nine": {
+            "id": "93",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1040,6 +1133,7 @@
 
         },
         "row-six-hex-ten": {
+            "id": "94",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1051,6 +1145,7 @@
 
         },
         "row-six-hex-eleven": {
+            "id": "95",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1062,6 +1157,7 @@
 
         },
         "row-six-hex-twelve": {
+            "id": "96",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1073,6 +1169,7 @@
 
         },
         "row-six-hex-thirteen": {
+            "id": "97",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1084,6 +1181,7 @@
 
         },
         "row-six-hex-fourteen": {
+            "id": "98",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1095,6 +1193,7 @@
 
         },
         "row-six-hex-fifteen": {
+            "id": "99",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1106,6 +1205,7 @@
 
         },
         "row-six-hex-sixteen": {
+            "id": "100",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1117,6 +1217,7 @@
 
         },
         "row-six-hex-seventeen": {
+            "id": "101",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1130,6 +1231,7 @@
     },
     "hex-row-seven":{
         "row-seven-hex-one": {
+            "id": "102",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1140,6 +1242,7 @@
             "y": 6
         },
         "row-seven-hex-two": {
+            "id": "103",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1151,6 +1254,7 @@
 
         },
         "row-seven-hex-three": {
+            "id": "104",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1162,6 +1266,7 @@
 
         },
         "row-seven-hex-four": {
+            "id": "105",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1173,6 +1278,7 @@
 
         },
         "row-seven-hex-five": {
+            "id": "106",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1184,6 +1290,7 @@
 
         },
         "row-seven-hex-six": {
+            "id": "107",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1195,6 +1302,7 @@
 
         },
         "row-seven-hex-seven": {
+            "id": "108",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1206,6 +1314,7 @@
 
         },
         "row-seven-hex-eight": {
+            "id": "109",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1217,6 +1326,7 @@
 
         },
         "row-seven-hex-nine": {
+            "id": "110",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1228,6 +1338,7 @@
 
         },
         "row-seven-hex-ten": {
+            "id": "111",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1239,6 +1350,7 @@
 
         },
         "row-seven-hex-eleven": {
+            "id": "112",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1250,6 +1362,7 @@
 
         },
         "row-seven-hex-twelve": {
+            "id": "113",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1261,6 +1374,7 @@
 
         },
         "row-seven-hex-thirteen": {
+            "id": "114",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1272,6 +1386,7 @@
 
         },
         "row-seven-hex-fourteen": {
+            "id": "115",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1283,6 +1398,7 @@
 
         },
         "row-seven-hex-fifteen": {
+            "id": "116",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1294,6 +1410,7 @@
 
         },
         "row-seven-hex-sixteen": {
+            "id": "117",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1305,6 +1422,7 @@
 
         },
         "row-seven-hex-seventeen": {
+            "id": "118",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1318,6 +1436,7 @@
     },
     "hex-row-eight":{
         "row-eight-hex-one": {
+            "id": "119",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1328,6 +1447,7 @@
             "y": 7
         },
         "row-eight-hex-two": {
+            "id": "120",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1339,6 +1459,7 @@
 
         },
         "row-eight-hex-three": {
+            "id": "121",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1350,6 +1471,7 @@
 
         },
         "row-eight-hex-four": {
+            "id": "122",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1361,6 +1483,7 @@
 
         },
         "row-eight-hex-five": {
+            "id": "123",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1372,6 +1495,7 @@
 
         },
         "row-eight-hex-six": {
+            "id": "124",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1383,6 +1507,7 @@
 
         },
         "row-eight-hex-seven": {
+            "id": "125",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1394,6 +1519,7 @@
 
         },
         "row-eight-hex-eight": {
+            "id": "126",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1405,6 +1531,7 @@
 
         },
         "row-eight-hex-nine": {
+            "id": "127",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1416,6 +1543,7 @@
 
         },
         "row-eight-hex-ten": {
+            "id": "128",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1427,6 +1555,7 @@
 
         },
         "row-eight-hex-eleven": {
+            "id": "129",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1438,6 +1567,7 @@
 
         },
         "row-eight-hex-twelve": {
+            "id": "130",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1449,6 +1579,7 @@
 
         },
         "row-eight-hex-thirteen": {
+            "id": "131",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1460,6 +1591,7 @@
 
         },
         "row-eight-hex-fourteen": {
+            "id": "132",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1471,6 +1603,7 @@
 
         },
         "row-eight-hex-fifteen": {
+            "id": "133",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1482,6 +1615,7 @@
 
         },
         "row-eight-hex-sixteen": {
+            "id": "134",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1493,6 +1627,7 @@
 
         },
         "row-eight-hex-seventeen": {
+            "id": "135",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1506,6 +1641,7 @@
     },
     "hex-row-nine":{
         "row-nine-hex-one": {
+            "id": "136",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1516,6 +1652,7 @@
             "y": 8
         },
         "row-nine-hex-two": {
+            "id": "137",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1527,6 +1664,7 @@
 
         },
         "row-nine-hex-three": {
+            "id": "138",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1538,6 +1676,7 @@
 
         },
         "row-nine-hex-four": {
+            "id": "139",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1549,6 +1688,7 @@
 
         },
         "row-nine-hex-five": {
+            "id": "140",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1560,6 +1700,7 @@
 
         },
         "row-nine-hex-six": {
+            "id": "141",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1571,6 +1712,7 @@
 
         },
         "row-nine-hex-seven": {
+            "id": "142",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1582,6 +1724,7 @@
 
         },
         "row-nine-hex-eight": {
+            "id": "143",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1593,6 +1736,7 @@
 
         },
         "row-nine-hex-nine": {
+            "id": "144",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1604,6 +1748,7 @@
 
         },
         "row-nine-hex-ten": {
+            "id": "145",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1615,6 +1760,7 @@
 
         },
         "row-nine-hex-eleven": {
+            "id": "146",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1626,6 +1772,7 @@
 
         },
         "row-nine-hex-twelve": {
+            "id": "147",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1637,6 +1784,7 @@
 
         },
         "row-nine-hex-thirteen": {
+            "id": "148",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1648,6 +1796,7 @@
 
         },
         "row-nine-hex-fourteen": {
+            "id": "149",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1659,6 +1808,7 @@
 
         },
         "row-nine-hex-fifteen": {
+            "id": "150",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1670,6 +1820,7 @@
 
         },
         "row-nine-hex-sixteen": {
+            "id": "151",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1681,6 +1832,7 @@
 
         },
         "row-nine-hex-seventeen": {
+            "id": "152",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1694,6 +1846,7 @@
     },
     "hex-row-ten":{
         "row-ten-hex-one": {
+            "id": "153",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1704,6 +1857,7 @@
             "y": 9
         },
         "row-ten-hex-two": {
+            "id": "154",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1715,6 +1869,7 @@
 
         },
         "row-ten-hex-three": {
+            "id": "155",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1726,6 +1881,7 @@
 
         },
         "row-ten-hex-four": {
+            "id": "156",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1737,6 +1893,7 @@
 
         },
         "row-ten-hex-five": {
+            "id": "157",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1748,6 +1905,7 @@
 
         },
         "row-ten-hex-six": {
+            "id": "158",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1759,6 +1917,7 @@
 
         },
         "row-ten-hex-seven": {
+            "id": "159",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1770,6 +1929,7 @@
 
         },
         "row-ten-hex-eight": {
+            "id": "160",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1781,6 +1941,7 @@
 
         },
         "row-ten-hex-nine": {
+            "id": "161",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1792,6 +1953,7 @@
 
         },
         "row-ten-hex-ten": {
+            "id": "162",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1803,6 +1965,7 @@
 
         },
         "row-ten-hex-eleven": {
+            "id": "163",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1814,6 +1977,7 @@
 
         },
         "row-ten-hex-twelve": {
+            "id": "164",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1825,6 +1989,7 @@
 
         },
         "row-ten-hex-thirteen": {
+            "id": "165",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1836,6 +2001,7 @@
 
         },
         "row-ten-hex-fourteen": {
+            "id": "166",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1847,6 +2013,7 @@
 
         },
         "row-ten-hex-fifteen": {
+            "id": "167",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1858,6 +2025,7 @@
 
         },
         "row-ten-hex-sixteen": {
+            "id": "168",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1869,6 +2037,7 @@
 
         },
         "row-ten-hex-seventeen": {
+            "id": "169",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1882,6 +2051,7 @@
     },    
     "hex-row-eleven":{
         "row-eleven-hex-one": {
+            "id": "170",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1892,6 +2062,7 @@
             "y": 10
         },
         "row-eleven-hex-two": {
+            "id": "171",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1903,6 +2074,7 @@
 
         },
         "row-eleven-hex-three": {
+            "id": "172",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1914,6 +2086,7 @@
 
         },
         "row-eleven-hex-four": {
+            "id": "173",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1925,6 +2098,7 @@
 
         },
         "row-eleven-hex-five": {
+            "id": "174",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1936,6 +2110,7 @@
 
         },
         "row-eleven-hex-six": {
+            "id": "175",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1947,6 +2122,7 @@
 
         },
         "row-eleven-hex-seven": {
+            "id": "176",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1958,6 +2134,7 @@
 
         },
         "row-eleven-hex-eight": {
+            "id": "177",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1969,6 +2146,7 @@
 
         },
         "row-eleven-hex-nine": {
+            "id": "178",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1980,6 +2158,7 @@
 
         },
         "row-eleven-hex-ten": {
+            "id": "179",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -1991,6 +2170,7 @@
 
         },
         "row-eleven-hex-eleven": {
+            "id": "180",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2002,6 +2182,7 @@
 
         },
         "row-eleven-hex-twelve": {
+            "id": "181",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2013,6 +2194,7 @@
 
         },
         "row-eleven-hex-thirteen": {
+            "id": "182",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2024,6 +2206,7 @@
 
         },
         "row-eleven-hex-fourteen": {
+            "id": "183",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2035,6 +2218,7 @@
 
         },
         "row-eleven-hex-fifteen": {
+            "id": "184",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2046,6 +2230,7 @@
 
         },
         "row-eleven-hex-sixteen": {
+            "id": "185",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2057,6 +2242,7 @@
 
         },
         "row-eleven-hex-seventeen": {
+            "id": "186",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2070,6 +2256,7 @@
     },
     "hex-row-twelve":{
         "row-twelve-hex-one": {
+            "id": "187",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2080,6 +2267,7 @@
             "y": 11
         },
         "row-twelve-hex-two": {
+            "id": "188",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2091,6 +2279,7 @@
 
         },
         "row-twelve-hex-three": {
+            "id": "189",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2102,6 +2291,7 @@
 
         },
         "row-twelve-hex-four": {
+            "id": "190",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2113,6 +2303,7 @@
 
         },
         "row-twelve-hex-five": {
+            "id": "191",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2124,6 +2315,7 @@
 
         },
         "row-twelve-hex-six": {
+            "id": "192",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2135,6 +2327,7 @@
 
         },
         "row-twelve-hex-seven": {
+            "id": "193",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2146,6 +2339,7 @@
 
         },
         "row-twelve-hex-eight": {
+            "id": "194",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2157,6 +2351,7 @@
 
         },
         "row-twelve-hex-nine": {
+            "id": "195",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2168,6 +2363,7 @@
 
         },
         "row-twelve-hex-ten": {
+            "id": "196",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2179,6 +2375,7 @@
 
         },
         "row-twelve-hex-eleven": {
+            "id": "197",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2190,6 +2387,7 @@
 
         },
         "row-twelve-hex-twelve": {
+            "id": "198",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2201,6 +2399,7 @@
 
         },
         "row-twelve-hex-thirteen": {
+            "id": "199",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2212,6 +2411,7 @@
 
         },
         "row-twelve-hex-fourteen": {
+            "id": "200",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2223,6 +2423,7 @@
 
         },
         "row-twelve-hex-fifteen": {
+            "id": "201",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2234,6 +2435,7 @@
 
         },
         "row-twelve-hex-sixteen": {
+            "id": "202",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2245,6 +2447,7 @@
 
         },
         "row-twelve-hex-seventeen": {
+            "id": "203",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2258,6 +2461,7 @@
     },
     "hex-row-thirteen":{
         "row-thirteen-hex-one": {
+            "id": "204",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2268,6 +2472,7 @@
             "y": 12
         },
         "row-thirteen-hex-two": {
+            "id": "205",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2279,6 +2484,7 @@
 
         },
         "row-thirteen-hex-three": {
+            "id": "206",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2290,6 +2496,7 @@
 
         },
         "row-thirteen-hex-four": {
+            "id": "207",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2301,6 +2508,7 @@
 
         },
         "row-thirteen-hex-five": {
+            "id": "208",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2312,6 +2520,7 @@
 
         },
         "row-thirteen-hex-six": {
+            "id": "209",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2323,6 +2532,7 @@
 
         },
         "row-thirteen-hex-seven": {
+            "id": "210",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2334,6 +2544,7 @@
 
         },
         "row-thirteen-hex-eight": {
+            "id": "211",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2345,6 +2556,7 @@
 
         },
         "row-thirteen-hex-nine": {
+            "id": "212",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2356,6 +2568,7 @@
 
         },
         "row-thirteen-hex-ten": {
+            "id": "213",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2367,6 +2580,7 @@
 
         },
         "row-thirteen-hex-eleven": {
+            "id": "214",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2378,6 +2592,7 @@
 
         },
         "row-thirteen-hex-twelve": {
+            "id": "215",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2389,6 +2604,7 @@
 
         },
         "row-thirteen-hex-thirteen": {
+            "id": "216",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2400,6 +2616,7 @@
 
         },
         "row-thirteen-hex-fourteen": {
+            "id": "217",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2411,6 +2628,7 @@
 
         },
         "row-thirteen-hex-fifteen": {
+            "id": "218",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2422,6 +2640,7 @@
 
         },
         "row-thirteen-hex-sixteen": {
+            "id": "219",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2433,6 +2652,7 @@
 
         },
         "row-thirteen-hex-seventeen": {
+            "id": "220",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2446,6 +2666,7 @@
     },
     "hex-row-fourteen":{
         "row-fourteen-hex-one": {
+            "id": "221",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2456,6 +2677,7 @@
             "y": 13
         },
         "row-fourteen-hex-two": {
+            "id": "222",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2467,6 +2689,7 @@
 
         },
         "row-fourteen-hex-three": {
+            "id": "223",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2478,6 +2701,7 @@
 
         },
         "row-fourteen-hex-four": {
+            "id": "224",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2489,6 +2713,7 @@
 
         },
         "row-fourteen-hex-five": {
+            "id": "225",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2500,6 +2725,7 @@
 
         },
         "row-fourteen-hex-six": {
+            "id": "226",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2511,6 +2737,7 @@
 
         },
         "row-fourteen-hex-seven": {
+            "id": "227",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2522,6 +2749,7 @@
 
         },
         "row-fourteen-hex-eight": {
+            "id": "228",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2533,6 +2761,7 @@
 
         },
         "row-fourteen-hex-nine": {
+            "id": "229",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2544,6 +2773,7 @@
 
         },
         "row-fourteen-hex-ten": {
+            "id": "230",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2555,6 +2785,7 @@
 
         },
         "row-fourteen-hex-eleven": {
+            "id": "231",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2566,6 +2797,7 @@
 
         },
         "row-fourteen-hex-twelve": {
+            "id": "232",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2577,6 +2809,7 @@
 
         },
         "row-fourteen-hex-thirteen": {
+            "id": "233",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2588,6 +2821,7 @@
 
         },
         "row-fourteen-hex-fourteen": {
+            "id": "234",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2599,6 +2833,7 @@
 
         },
         "row-fourteen-hex-fifteen": {
+            "id": "235",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2610,6 +2845,7 @@
 
         },
         "row-fourteen-hex-sixteen": {
+            "id": "236",
             "income": ".50",
             "terrain": "sea",
             "army": {
@@ -2621,6 +2857,7 @@
 
         },
         "row-fourteen-hex-seventeen": {
+            "id": "237",
             "income": ".50",
             "terrain": "sea",
             "army": {
