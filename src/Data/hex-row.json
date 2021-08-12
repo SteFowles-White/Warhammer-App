@@ -206,6 +206,7 @@
     },
     "hex-row-two":{
         "row-two-hex-one": {
+            "id": "18a",
             "income": ".50",
             "terrain": "sea",
             "army": {
