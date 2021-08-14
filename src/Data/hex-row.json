@@ -2875,7 +2875,7 @@
     "armies":{
         "orks": {
             "orkArmy-1": {
-                "armyLsit": [],
+                "armyList": [],
                 "x": 0,
                 "y": 0,
                 "points": 0
@@ -2884,7 +2884,7 @@
         },
         "sigmar":{
             "sigmarArmy-1": {
-                "armyLsit": [],
+                "armyList": [],
                 "x": 0,
                 "y": 0,
                 "points": 0

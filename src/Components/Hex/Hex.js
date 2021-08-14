@@ -1,9 +1,30 @@
 import React from "react";
- import { useState } from "react";
+ import { useState, useContext } from "react";
 import OrkArmy from "../ArmyIcon/Army";
+import Army from './../ArmyIcon/Army';
+import AppData from '../../Data/app-data-hook';
 
 const Hex = (props) => {
+
+
     const data = props.data;
+    const hexXCordinates = data.x;
+    const hexYCordinates = data.y;
+    const armies = useContext(AppData);
+    const orkAmies = armies.appData.orkArmies;
+    const sigmarArmies = armies.appData.sigmarArmies;
+
+    
+
+    orkAmies.forEach(element => {
+      if(element.x === hexXCordinates && element.y === hexYCordinates){
+        console.log(element)
+        return element;
+      }
+    });
+    
+
+
     let armyPresent = data.army.isArmy ? true : false;
     const [getArmyCordinates, setgetArmyCordinates] = useState(armyPresent ? {x: data.x, y: data.y} : {});
  
