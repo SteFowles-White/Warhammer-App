@@ -1,19 +1,18 @@
-import React from "react";
-import mapData from '../Data/hex-row.json';
+import React, { useContext } from "react";
+import  AppData from '../Data/app-data-hook';
 import CampagnImage from '../assets/images/BattleCompanies_MapCampaign.jpg'
-// import {DragDropContext} from 'react-beautiful-dnd';
-
 import HexContainer from "../Components/Hex/HexContainer.js";
 
-const HomePage = () => {
-  const mapDataContainer = Object.values(mapData);
 
-  // const onDragEndHandler = result => {
-  //   // TODO
-  // }
+const HomePage = () => {
+
+  let HexContainerInformation = useContext(AppData);
+  HexContainerInformation = HexContainerInformation.appData.mapDataContainer;
+
 
   return (
     <main>
+
       <header className="container-fluid text-center">
         <h1>Warhammer World - Age of Sigmar</h1>
         <h2>The world that the game is working on</h2>
@@ -90,7 +89,7 @@ const HomePage = () => {
                 <div className="map__inner__container">
                   <img src={CampagnImage} alt=""/>
                   {
-                      mapDataContainer.map((result, key) => {
+                        HexContainerInformation.map((result, key) => {
                         let classNumber = key + 1;
                         return <HexContainer key={key} hex_row={classNumber} data={result}/>
                       })

@@ -1,13 +1,16 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import './App.css';
 import HomePage from './Pages/Home';
- 
+import  AppData from './Data/app-data-hook';
+
 
 function App() {
+  const appData = useContext(AppData);
+
   return (
-    <React.Fragment>
+    <AppData.Provider value={{appData: appData.data}}>
       <HomePage />
-    </React.Fragment>
+    </AppData.Provider>
   );
 }
 
