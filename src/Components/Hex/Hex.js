@@ -33,12 +33,9 @@ const Hex = (props) => {
         const armyCoOrdinated = JSON.parse(e.dataTransfer.getData("text/plain"));
         const locationArmyMovingTo = {x: e.target.getAttribute("x"), y:  e.target.getAttribute("y")}
 
-        console.log(armyCoOrdinated, locationArmyMovingTo);
+        // console.log(armyCoOrdinated, locationArmyMovingTo);
         if(armyCoOrdinated.x === locationArmyMovingTo.x && armyCoOrdinated.y === locationArmyMovingTo.y){
-
-          console.log(false);
-          //stop the draging event
- 
+          return;
         }else{
          //check to see if can move to this part of the map
           // if so append to the map
