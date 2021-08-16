@@ -1,54 +1,51 @@
 import React from "react";
- import { useState, useContext } from "react";
+ import { useContext } from "react";
 import OrkArmy from "../ArmyIcon/Army";
-import Army from './../ArmyIcon/Army';
-import AppData from '../../Data/app-data-hook';
+import AppData from '../../Data/app-data';
+// import useArmyData from './../../Hooks/armyDataHook';
 
 const Hex = (props) => {
-
-
+    // const [getArmyCordinates, setgetArmyCordinates] = useState({});
     const data = props.data;
-    const hexXCordinates = data.x;
-    const hexYCordinates = data.y;
     const armies = useContext(AppData);
-    const orkAmies = armies.appData.orkArmies;
-    const sigmarArmies = armies.appData.sigmarArmies;
 
-    
+    let orkAmies = armies.appData.orkArmies;
+    // let sigmarArmies = armies.appData.sigmarArmies;
+    let currentArmy;
 
+    //filter through the ork army data to see if there is an ork amy on the hex, if so return the army data
     orkAmies.forEach(element => {
-      if(element.x === hexXCordinates && element.y === hexYCordinates){
-        console.log(element)
-        return element;
+      if(element.x === data.x && element.y === data.y){
+        return currentArmy = element;
+      }else{
+        return currentArmy = false;
       }
     });
-    
+   
+    //this function is the props lift up function to get army corodinates and data
+    const getLocation = ()=> {
 
-
-    let armyPresent = data.army.isArmy ? true : false;
-    const [getArmyCordinates, setgetArmyCordinates] = useState(armyPresent ? {x: data.x, y: data.y} : {});
- 
-    const getLocation = (x, y)=> {
-        setgetArmyCordinates({x: x, y: y});
+         return;
       }
-
-
-
-    const dragStart = () =>{
-        console.log("set location", getArmyCordinates);
-      }
-
-
 
     const dropHandler = (e) => {
         e.preventDefault();
+        const armyCoOrdinated = JSON.parse(e.dataTransfer.getData("text/plain"));
+        const locationArmyMovingTo = {x: e.target.getAttribute("x"), y:  e.target.getAttribute("y")}
 
-        e.target.appendChild(document.getElementById("ork-1"));
-        const targetX = e.target.getAttribute("x");
-        const targetY = e.target.getAttribute("y");
+        console.log(armyCoOrdinated, locationArmyMovingTo);
+        if(armyCoOrdinated.x === locationArmyMovingTo.x && armyCoOrdinated.y === locationArmyMovingTo.y){
 
-        // console.log("set location", getArmyCordinates);
-        // console.log("current location", targetX, targetY);
+          console.log(false);
+          //stop the draging event
+ 
+        }else{
+         //check to see if can move to this part of the map
+          // if so append to the map
+          // and update the json file for the map and the data
+          e.target.appendChild(document.getElementById("ork-1"));
+        };
+ 
 
 
         //change json data so is army === true and the current hex is army === false
@@ -57,25 +54,22 @@ const Hex = (props) => {
         e.preventDefault();
     };
 
-
-
   return (
     <div className="hex">
       <div className="hex_top"></div>
       <div
         className="hex_body"
         id={data.id}
-        onDragStart={dragStart}
         onDragOver={dragHandler}
         onDrop={dropHandler}
         x={data.x}
         y={data.y}
       >
-        {armyPresent && (
+        {currentArmy && (
           <OrkArmy
             idName="ork-1"
-            mapPointX={data.x}
-            mapPointY={data.y}
+            mapPointX={currentArmy.x}
+            mapPointY={currentArmy.y}
             onClickEvent={getLocation}
           />
         )}

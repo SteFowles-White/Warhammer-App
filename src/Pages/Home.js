@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import  AppData from '../Data/app-data-hook';
+import  AppData from '../Data/app-data';
 import CampagnImage from '../assets/images/BattleCompanies_MapCampaign.jpg'
 import HexContainer from "../Components/Hex/HexContainer.js";
 
