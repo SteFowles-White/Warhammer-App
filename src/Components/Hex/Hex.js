@@ -1,32 +1,36 @@
 import React from "react";
- import { useContext } from "react";
-import OrkArmy from "../ArmyIcon/Army";
-import AppData from '../../Data/app-data';
+import useDataAPI from '../../Hooks/Data';
+// import OrkArmy from "../ArmyIcon/Army";
+// import AppData from '../../Data/app-data';
 // import useArmyData from './../../Hooks/armyDataHook';
 
 const Hex = (props) => {
-    // const [getArmyCordinates, setgetArmyCordinates] = useState({});
-    const data = props.data;
-    const armies = useContext(AppData);
+     const data = props.data;
+    const fullArmyData = useDataAPI('armies');
+     let armyData = [];
 
-    let orkAmies = armies.appData.orkArmies;
-    // let sigmarArmies = armies.appData.sigmarArmies;
-    let currentArmy;
+     if(fullArmyData !== undefined) {
+        armyData.push(fullArmyData);
+        console.log(armyData);
+    }
+
+
+
 
     //filter through the ork army data to see if there is an ork amy on the hex, if so return the army data
-    orkAmies.forEach(element => {
-      if(element.x === data.x && element.y === data.y){
-        return currentArmy = element;
-      }else{
-        return currentArmy = false;
-      }
-    });
+    // orkAmies.forEach(element => {
+    //   if(element.x === data.x && element.y === data.y){
+    //     return currentArmy = element;
+    //   }else{
+    //     return currentArmy = false;
+    //   }
+    // });
    
     //this function is the props lift up function to get army corodinates and data
-    const getLocation = ()=> {
+    // const getLocation = ()=> {
 
-         return;
-      }
+    //      return;
+    //   }
 
     const dropHandler = (e) => {
         e.preventDefault();
@@ -56,20 +60,20 @@ const Hex = (props) => {
       <div className="hex_top"></div>
       <div
         className="hex_body"
-        id={data.id}
+        // id={data.id}
         onDragOver={dragHandler}
         onDrop={dropHandler}
-        x={data.x}
-        y={data.y}
+        // x={data.x}
+        // y={data.y}
       >
-        {currentArmy && (
+        {/* {currentArmy && (
           <OrkArmy
             idName="ork-1"
             mapPointX={currentArmy.x}
             mapPointY={currentArmy.y}
             onClickEvent={getLocation}
           />
-        )}
+        )} */}
       </div>
       <div className="hex_bottom"></div>
     </div>

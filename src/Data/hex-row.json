@@ -1,7 +1,7 @@
 {
     "hexGrid": {
-        "hex-row-one":{
-            "row-one-hex-one": {
+        "row-1":{
+            "col-1a": {
                 "id": "1",
                 "income": ".50",
                 "terrain": "sea",
@@ -13,7 +13,7 @@
                 "y": 0
     
             },
-            "row-one-hex-two": {
+            "col-1b": {
                 "id": "2",
                 "income": ".50",
                 "terrain": "sea",
@@ -25,7 +25,7 @@
                 "y": 0
     
             },
-            "row-one-hex-three": {
+            "col-1c": {
                 "id": "3",
                 "income": ".50",
                 "terrain": "sea",
@@ -37,7 +37,7 @@
                 "y": 0
     
             },
-            "row-one-hex-four": {
+            "col-1d": {
                 "id": "4",
                 "income": ".50",
                 "terrain": "sea",
@@ -49,7 +49,7 @@
                 "y": 0
     
             },
-            "row-one-hex-five": {
+            "col-1e": {
                 "id": "5",
                 "income": ".50",
                 "terrain": "sea",
@@ -61,7 +61,7 @@
                 "y": 0
     
             },
-            "row-one-hex-six": {
+            "col-1f": {
                 "id": "6",
                 "income": ".50",
                 "terrain": "sea",
@@ -73,7 +73,7 @@
                 "y": 0
     
             },
-            "row-one-hex-seven": {
+            "col-1g": {
                 "id": "7",
                 "income": ".50",
                 "terrain": "sea",
@@ -85,7 +85,7 @@
                 "y": 0
     
             },
-            "row-one-hex-eight": {
+            "col-1h": {
                 "id": "8",
                 "income": ".50",
                 "terrain": "sea",
@@ -97,7 +97,7 @@
                 "y": 0
     
             },
-            "row-one-hex-nine": {
+            "col-1i": {
                 "id": "9",
                 "income": ".50",
                 "terrain": "sea",
@@ -109,7 +109,7 @@
                 "y": 0
     
             },
-            "row-one-hex-ten": {
+            "col-1j": {
                 "id": "10",
                 "income": ".50",
                 "terrain": "sea",
@@ -121,7 +121,7 @@
                 "y": 0
     
             },
-            "row-one-hex-eleven": {
+            "col-1k": {
                 "id": "11",
                 "income": ".50",
                 "terrain": "sea",
@@ -133,7 +133,7 @@
                 "y": 0
     
             },
-            "row-one-hex-twelve": {
+            "col-1l": {
                 "id": "12",
                 "income": ".50",
                 "terrain": "sea",
@@ -144,7 +144,7 @@
                 "x": 11,
                 "y": 0
             },
-            "row-one-hex-thirteen": {
+            "col-1m": {
                 "id": "13",
                 "income": ".50",
                 "terrain": "sea",
@@ -156,7 +156,7 @@
                 "y": 0
     
             },
-            "row-one-hex-fourteen": {
+            "col-1n": {
                 "id": "14",
                 "income": ".50",
                 "terrain": "sea",
@@ -168,7 +168,7 @@
                 "y": 0
     
             },
-            "row-one-hex-fifteen": {
+            "col-1o": {
                 "id": "15",
                 "income": ".50",
                 "terrain": "sea",
@@ -180,7 +180,7 @@
                 "y": 0
     
             },
-            "row-one-hex-sixteen": {
+            "col-1p": {
                 "id": "16",
                 "income": ".50",
                 "terrain": "sea",
@@ -192,7 +192,7 @@
                 "y": 0
     
             },
-            "row-one-hex-seventeen": {
+            "col-1q": {
                 "id": "17",
                 "income": ".50",
                 "terrain": "sea",
@@ -205,8 +205,8 @@
     
             }
         },
-        "hex-row-two":{
-            "row-two-hex-one": {
+        "row-1b":{
+            "col-1a": {
                 "id": "18a",
                 "income": ".50",
                 "terrain": "sea",
@@ -217,7 +217,7 @@
                 "x": 0,
                 "y": 1
             },
-            "row-two-hex-two": {
+            "col-1b": {
                 "id": "18",
                 "income": ".50",
                 "terrain": "sea",
@@ -229,7 +229,7 @@
                 "y": 1
     
             },
-            "row-two-hex-three": {
+            "col-1c": {
                 "id": "19",
                 "income": ".50",
                 "terrain": "sea",
@@ -241,7 +241,7 @@
                 "y": 1
     
             },
-            "row-two-hex-four": {
+            "col-1d": {
                 "id": "20",
                 "income": ".50",
                 "terrain": "sea",
@@ -253,7 +253,7 @@
                 "y": 1
     
             },
-            "row-two-hex-five": {
+            "col-1e": {
                 "id": "21",
                 "income": ".50",
                 "terrain": "sea",
@@ -265,7 +265,7 @@
                 "y": 1
     
             },
-            "row-two-hex-six": {
+            "col-1f": {
                 "id": "22",
                 "income": ".50",
                 "terrain": "sea",
@@ -277,7 +277,7 @@
                 "y": 1
     
             },
-            "row-two-hex-seven": {
+            "col-1g": {
                 "id": "23",
                 "income": ".50",
                 "terrain": "sea",
@@ -289,7 +289,7 @@
                 "y": 1
     
             },
-            "row-two-hex-eight": {
+            "col-1h": {
                 "id": "24",
                 "income": ".50",
                 "terrain": "sea",
@@ -301,7 +301,7 @@
                 "y": 1
     
             },
-            "row-two-hex-nine": {
+            "col-1i": {
                 "id": "25",
                 "income": ".50",
                 "terrain": "sea",
@@ -313,7 +313,7 @@
                 "y": 1
     
             },
-            "row-two-hex-ten": {
+            "col-1j": {
                 "id": "26",
                 "income": ".50",
                 "terrain": "sea",
@@ -325,7 +325,7 @@
                 "y": 1
     
             },
-            "row-two-hex-eleven": {
+            "col-1k": {
                 "id": "27",
                 "income": ".50",
                 "terrain": "sea",
@@ -337,7 +337,7 @@
                 "y": 1
     
             },
-            "row-two-hex-twelve": {
+            "col-1l": {
                 "id": "28",
                 "income": ".50",
                 "terrain": "sea",
@@ -349,7 +349,7 @@
                 "y": 1
     
             },
-            "row-two-hex-thirteen": {
+            "col-1m": {
                 "id": "29",
                 "income": ".50",
                 "terrain": "sea",
@@ -361,7 +361,7 @@
                 "y": 1
     
             },
-            "row-two-hex-fourteen": {
+            "col-1n": {
                 "id": "30",
                 "income": ".50",
                 "terrain": "sea",
@@ -373,7 +373,7 @@
                 "y": 1
     
             },
-            "row-two-hex-fifteen": {
+            "col-1o": {
                 "id": "31",
                 "income": ".50",
                 "terrain": "sea",
@@ -385,7 +385,7 @@
                 "y": 1
     
             },
-            "row-two-hex-sixteen": {
+            "col-1p": {
                 "id": "32",
                 "income": ".50",
                 "terrain": "sea",
@@ -397,7 +397,7 @@
                 "y": 1
     
             },
-            "row-two-hex-seventeen": {
+            "col-1q": {
                 "id": "33",
                 "income": ".50",
                 "terrain": "sea",
@@ -411,8 +411,8 @@
             }
             
         },
-        "hex-row-three":{
-            "row-three-hex-one": {
+        "row-1c":{
+            "col-1a": {
                 "id": "34",
                 "income": ".50",
                 "terrain": "sea",
@@ -423,7 +423,7 @@
                 "x": 0,
                 "y": 2
             },
-            "row-three-hex-two": {
+            "col-1b": {
                 "id": "35",
                 "income": ".50",
                 "terrain": "sea",
@@ -435,7 +435,7 @@
                 "y": 2
     
             },
-            "row-three-hex-three": {
+            "col-1c": {
                 "id": "36",
                 "income": ".50",
                 "terrain": "sea",
@@ -447,7 +447,7 @@
                 "y": 2
     
             },
-            "row-three-hex-four": {
+            "col-1d": {
                 "id": "37",
                 "income": ".50",
                 "terrain": "sea",
@@ -459,7 +459,7 @@
                 "y": 2
     
             },
-            "row-three-hex-five": {
+            "col-1e": {
                 "id": "38",
                 "income": ".50",
                 "terrain": "sea",
@@ -471,7 +471,7 @@
                 "y": 2
     
             },
-            "row-three-hex-six": {
+            "col-1f": {
                 "id": "39",
                 "income": ".50",
                 "terrain": "sea",
@@ -483,7 +483,7 @@
                 "y": 2
     
             },
-            "row-three-hex-seven": {
+            "col-1g": {
                 "id": "40",
                 "income": ".50",
                 "terrain": "sea",
@@ -495,7 +495,7 @@
                 "y": 2
     
             },
-            "row-three-hex-eight": {
+            "col-1h": {
                 "id": "41",
                 "income": ".50",
                 "terrain": "sea",
@@ -507,7 +507,7 @@
                 "y": 2
     
             },
-            "row-three-hex-nine": {
+            "col-1i": {
                 "id": "42",
                 "income": ".50",
                 "terrain": "sea",
@@ -519,7 +519,7 @@
                 "y": 2
     
             },
-            "row-three-hex-ten": {
+            "col-1j": {
                 "id": "43",
                 "income": ".50",
                 "terrain": "sea",
@@ -531,7 +531,7 @@
                 "y": 2
     
             },
-            "row-three-hex-eleven": {
+            "col-1k": {
                 "id": "44",
                 "income": ".50",
                 "terrain": "sea",
@@ -543,7 +543,7 @@
                 "y": 2
     
             },
-            "row-three-hex-twelve": {
+            "col-1l": {
                 "id": "45",
                 "income": ".50",
                 "terrain": "sea",
@@ -555,7 +555,7 @@
                 "y": 2
     
             },
-            "row-three-hex-thirteen": {
+            "col-1m": {
                 "id": "46",
                 "income": ".50",
                 "terrain": "sea",
@@ -567,7 +567,7 @@
                 "y": 2
     
             },
-            "row-three-hex-fourteen": {
+            "col-1n": {
                 "id": "47",
                 "income": ".50",
                 "terrain": "sea",
@@ -579,7 +579,7 @@
                 "y": 2
     
             },
-            "row-three-hex-fifteen": {
+            "col-1o": {
                 "id": "48",
                 "income": ".50",
                 "terrain": "sea",
@@ -591,7 +591,7 @@
                 "y": 2
     
             },
-            "row-three-hex-sixteen": {
+            "col-1p": {
                 "id": "49",
                 "income": ".50",
                 "terrain": "sea",
@@ -603,7 +603,7 @@
                 "y": 2
     
             },
-            "row-three-hex-seventeen": {
+            "col-1q": {
                 "id": "50",
                 "income": ".50",
                 "terrain": "sea",
@@ -616,8 +616,8 @@
     
             }
         },
-        "hex-row-four":{
-            "row-four-hex-one": {
+        "row-1d":{
+            "col-1a": {
                 "id": "51",
                 "income": ".50",
                 "terrain": "sea",
@@ -628,7 +628,7 @@
                 "x": 0,
                 "y": 3
             },
-            "row-four-hex-two": {
+            "col-1b": {
                 "id": "52",
                 "income": ".50",
                 "terrain": "sea",
@@ -640,7 +640,7 @@
                 "y": 3
     
             },
-            "row-four-hex-three": {
+            "col-1c": {
                 "id": "53",
                 "income": ".50",
                 "terrain": "sea",
@@ -652,7 +652,7 @@
                 "y": 3
     
             },
-            "row-four-hex-four": {
+            "col-1d": {
                 "id": "54",
                 "income": ".50",
                 "terrain": "sea",
@@ -664,7 +664,7 @@
                 "y": 3
     
             },
-            "row-four-hex-five": {
+            "col-1e": {
                 "id": "55",
                 "income": ".50",
                 "terrain": "sea",
@@ -676,7 +676,7 @@
                 "y": 3
     
             },
-            "row-four-hex-six": {
+            "col-1f": {
                 "id": "56",
                 "income": ".50",
                 "terrain": "sea",
@@ -688,7 +688,7 @@
                 "y": 3
     
             },
-            "row-four-hex-seven": {
+            "col-1g": {
                 "id": "57",
                 "income": ".50",
                 "terrain": "sea",
@@ -700,7 +700,7 @@
                 "y": 3
     
             },
-            "row-four-hex-eight": {
+            "col-1h": {
                 "id": "58",
                 "income": ".50",
                 "terrain": "sea",
@@ -712,7 +712,7 @@
                 "y": 3
     
             },
-            "row-four-hex-nine": {
+            "col-1i": {
                 "id": "59",
                 "income": ".50",
                 "terrain": "sea",
@@ -724,7 +724,7 @@
                 "y": 3
     
             },
-            "row-four-hex-ten": {
+            "col-1j": {
                 "id": "60",
                 "income": ".50",
                 "terrain": "sea",
@@ -736,7 +736,7 @@
                 "y": 3
     
             },
-            "row-four-hex-eleven": {
+            "col-1k": {
                 "id": "61",
                 "income": ".50",
                 "terrain": "sea",
@@ -748,7 +748,7 @@
                 "y": 3
     
             },
-            "row-four-hex-twelve": {
+            "col-1l": {
                 "id": "62",
                 "income": ".50",
                 "terrain": "sea",
@@ -760,7 +760,7 @@
                 "y": 3
     
             },
-            "row-four-hex-thirteen": {
+            "col-1m": {
                 "id": "63",
                 "income": ".50",
                 "terrain": "sea",
@@ -772,7 +772,7 @@
                 "y": 3
     
             },
-            "row-four-hex-fourteen": {
+            "col-1n": {
                 "id": "64",
                 "income": ".50",
                 "terrain": "sea",
@@ -784,7 +784,7 @@
                 "y": 3
     
             },
-            "row-four-hex-fifteen": {
+            "col-1o": {
                 "id": "65",
                 "income": ".50",
                 "terrain": "sea",
@@ -796,7 +796,7 @@
                 "y": 3
     
             },
-            "row-four-hex-sixteen": {
+            "col-1p": {
                 "id": "66",
                 "income": ".50",
                 "terrain": "sea",
@@ -808,7 +808,7 @@
                 "y": 3
     
             },
-            "row-four-hex-seventeen": {
+            "col-1q": {
                 "id": "67",
                 "income": ".50",
                 "terrain": "sea",
@@ -821,8 +821,8 @@
     
             }
         },
-        "hex-row-five":{
-            "row-five-hex-one": {
+        "row-1e":{
+            "col-1a": {
                 "id": "68",
                 "income": ".50",
                 "terrain": "sea",
@@ -833,7 +833,7 @@
                 "x": 0,
                 "y": 4
             },
-            "row-five-hex-two": {
+            "col-1b": {
                 "id": "69",
                 "income": ".50",
                 "terrain": "sea",
@@ -845,7 +845,7 @@
                 "y": 4
     
             },
-            "row-five-hex-three": {
+            "col-1c": {
                 "id": "70",
                 "income": ".50",
                 "terrain": "sea",
@@ -857,7 +857,7 @@
                 "y": 4
     
             },
-            "row-five-hex-four": {
+            "col-1d": {
                 "id": "71",
                 "income": ".50",
                 "terrain": "sea",
@@ -869,7 +869,7 @@
                 "y": 4
     
             },
-            "row-five-hex-five": {
+            "col-1e": {
                 "id": "72",
                 "income": ".50",
                 "terrain": "sea",
@@ -881,7 +881,7 @@
                 "y": 4
     
             },
-            "row-five-hex-six": {
+            "col-1f": {
                 "id": "73",
                 "income": ".50",
                 "terrain": "sea",
@@ -893,7 +893,7 @@
                 "y": 4
     
             },
-            "row-five-hex-seven": {
+            "col-1g": {
                 "id": "74",
                 "income": ".50",
                 "terrain": "sea",
@@ -905,7 +905,7 @@
                 "y": 4
     
             },
-            "row-five-hex-eight": {
+            "col-1h": {
                 "id": "75",
                 "income": ".50",
                 "terrain": "sea",
@@ -917,7 +917,7 @@
                 "y": 4
     
             },
-            "row-five-hex-nine": {
+            "col-1i": {
                 "id": "76",
                 "income": ".50",
                 "terrain": "sea",
@@ -929,7 +929,7 @@
                 "y": 4
     
             },
-            "row-five-hex-ten": {
+            "col-1j": {
                 "id": "77",
                 "income": ".50",
                 "terrain": "sea",
@@ -941,7 +941,7 @@
                 "y": 4
     
             },
-            "row-five-hex-eleven": {
+            "col-1k": {
                 "id": "78",
                 "income": ".50",
                 "terrain": "sea",
@@ -953,7 +953,7 @@
                 "y": 4
     
             },
-            "row-five-hex-twelve": {
+            "col-1l": {
                 "id": "79",
                 "income": ".50",
                 "terrain": "sea",
@@ -965,7 +965,7 @@
                 "y": 4
     
             },
-            "row-five-hex-thirteen": {
+            "col-1m": {
                 "id": "80",
                 "income": ".50",
                 "terrain": "sea",
@@ -977,7 +977,7 @@
                 "y": 4
     
             },
-            "row-five-hex-fourteen": {
+            "col-1n": {
                 "id": "81",
                 "income": ".50",
                 "terrain": "sea",
@@ -989,7 +989,7 @@
                 "y": 4
     
             },
-            "row-five-hex-fifteen": {
+            "col-1o": {
                 "id": "82",
                 "income": ".50",
                 "terrain": "sea",
@@ -1001,7 +1001,7 @@
                 "y": 4
     
             },
-            "row-five-hex-sixteen": {
+            "col-1p": {
                 "id": "83",
                 "income": ".50",
                 "terrain": "sea",
@@ -1013,7 +1013,7 @@
                 "y": 4
     
             },
-            "row-five-hex-seventeen": {
+            "col-1q": {
                 "id": "84",
                 "income": ".50",
                 "terrain": "sea",
@@ -1026,8 +1026,8 @@
     
             }
         },
-        "hex-row-six":{
-            "row-six-hex-one": {
+        "row-1f":{
+            "col-1a": {
                 "id": "85",
                 "income": ".50",
                 "terrain": "sea",
@@ -1038,7 +1038,7 @@
                 "x": 0,
                 "y": 5
             },
-            "row-six-hex-two": {
+            "col-1b": {
                 "id": "86",
                 "income": ".50",
                 "terrain": "sea",
@@ -1050,7 +1050,7 @@
                 "y": 5
     
             },
-            "row-six-hex-three": {
+            "col-1c": {
                 "id": "87",
                 "income": ".50",
                 "terrain": "sea",
@@ -1062,7 +1062,7 @@
                 "y": 5
     
             },
-            "row-six-hex-four": {
+            "col-1d": {
                 "id": "88",
                 "income": ".50",
                 "terrain": "sea",
@@ -1074,7 +1074,7 @@
                 "y": 5
     
             },
-            "row-six-hex-five": {
+            "col-1e": {
                 "id": "89",
                 "income": ".50",
                 "terrain": "sea",
@@ -1086,7 +1086,7 @@
                 "y": 5
     
             },
-            "row-six-hex-six": {
+            "col-1f": {
                 "id": "90",
                 "income": ".50",
                 "terrain": "sea",
@@ -1098,7 +1098,7 @@
                 "y": 5
     
             },
-            "row-six-hex-seven": {
+            "col-1g": {
                 "id": "91",
                 "income": ".50",
                 "terrain": "sea",
@@ -1110,7 +1110,7 @@
                 "y": 5
     
             },
-            "row-six-hex-eight": {
+            "col-1h": {
                 "id": "92",
                 "income": ".50",
                 "terrain": "sea",
@@ -1122,7 +1122,7 @@
                 "y": 5
     
             },
-            "row-six-hex-nine": {
+            "col-1i": {
                 "id": "93",
                 "income": ".50",
                 "terrain": "sea",
@@ -1134,7 +1134,7 @@
                 "y": 5
     
             },
-            "row-six-hex-ten": {
+            "col-1j": {
                 "id": "94",
                 "income": ".50",
                 "terrain": "sea",
@@ -1146,7 +1146,7 @@
                 "y": 5
     
             },
-            "row-six-hex-eleven": {
+            "col-1k": {
                 "id": "95",
                 "income": ".50",
                 "terrain": "sea",
@@ -1158,7 +1158,7 @@
                 "y": 5
     
             },
-            "row-six-hex-twelve": {
+            "col-1l": {
                 "id": "96",
                 "income": ".50",
                 "terrain": "sea",
@@ -1170,7 +1170,7 @@
                 "y": 5
     
             },
-            "row-six-hex-thirteen": {
+            "col-1m": {
                 "id": "97",
                 "income": ".50",
                 "terrain": "sea",
@@ -1182,7 +1182,7 @@
                 "y": 5
     
             },
-            "row-six-hex-fourteen": {
+            "col-1n": {
                 "id": "98",
                 "income": ".50",
                 "terrain": "sea",
@@ -1194,7 +1194,7 @@
                 "y": 5
     
             },
-            "row-six-hex-fifteen": {
+            "col-1o": {
                 "id": "99",
                 "income": ".50",
                 "terrain": "sea",
@@ -1206,7 +1206,7 @@
                 "y": 5
     
             },
-            "row-six-hex-sixteen": {
+            "col-1p": {
                 "id": "100",
                 "income": ".50",
                 "terrain": "sea",
@@ -1218,7 +1218,7 @@
                 "y": 5
     
             },
-            "row-six-hex-seventeen": {
+            "col-1q": {
                 "id": "101",
                 "income": ".50",
                 "terrain": "sea",
@@ -1231,8 +1231,8 @@
     
             }
         },
-        "hex-row-seven":{
-            "row-seven-hex-one": {
+        "row-1g":{
+            "col-1a": {
                 "id": "102",
                 "income": ".50",
                 "terrain": "sea",
@@ -1243,7 +1243,7 @@
                 "x": 0,
                 "y": 6
             },
-            "row-seven-hex-two": {
+            "col-1b": {
                 "id": "103",
                 "income": ".50",
                 "terrain": "sea",
@@ -1255,7 +1255,7 @@
                 "y": 6
     
             },
-            "row-seven-hex-three": {
+            "col-1c": {
                 "id": "104",
                 "income": ".50",
                 "terrain": "sea",
@@ -1267,7 +1267,7 @@
                 "y": 6
     
             },
-            "row-seven-hex-four": {
+            "col-1d": {
                 "id": "105",
                 "income": ".50",
                 "terrain": "sea",
@@ -1279,7 +1279,7 @@
                 "y": 6
     
             },
-            "row-seven-hex-five": {
+            "col-1e": {
                 "id": "106",
                 "income": ".50",
                 "terrain": "sea",
@@ -1291,7 +1291,7 @@
                 "y": 6
     
             },
-            "row-seven-hex-six": {
+            "col-1f": {
                 "id": "107",
                 "income": ".50",
                 "terrain": "sea",
@@ -1303,7 +1303,7 @@
                 "y": 6
     
             },
-            "row-seven-hex-seven": {
+            "col-1g": {
                 "id": "108",
                 "income": ".50",
                 "terrain": "sea",
@@ -1315,7 +1315,7 @@
                 "y": 6
     
             },
-            "row-seven-hex-eight": {
+            "col-1h": {
                 "id": "109",
                 "income": ".50",
                 "terrain": "sea",
@@ -1327,7 +1327,7 @@
                 "y": 6
     
             },
-            "row-seven-hex-nine": {
+            "col-1i": {
                 "id": "110",
                 "income": ".50",
                 "terrain": "sea",
@@ -1339,7 +1339,7 @@
                 "y": 6
     
             },
-            "row-seven-hex-ten": {
+            "col-1j": {
                 "id": "111",
                 "income": ".50",
                 "terrain": "sea",
@@ -1351,7 +1351,7 @@
                 "y": 6
     
             },
-            "row-seven-hex-eleven": {
+            "col-1k": {
                 "id": "112",
                 "income": ".50",
                 "terrain": "sea",
@@ -1363,7 +1363,7 @@
                 "y": 6
     
             },
-            "row-seven-hex-twelve": {
+            "col-1l": {
                 "id": "113",
                 "income": ".50",
                 "terrain": "sea",
@@ -1375,7 +1375,7 @@
                 "y": 6
     
             },
-            "row-seven-hex-thirteen": {
+            "col-1m": {
                 "id": "114",
                 "income": ".50",
                 "terrain": "sea",
@@ -1387,7 +1387,7 @@
                 "y": 6
     
             },
-            "row-seven-hex-fourteen": {
+            "col-1n": {
                 "id": "115",
                 "income": ".50",
                 "terrain": "sea",
@@ -1399,7 +1399,7 @@
                 "y": 6
     
             },
-            "row-seven-hex-fifteen": {
+            "col-1o": {
                 "id": "116",
                 "income": ".50",
                 "terrain": "sea",
@@ -1411,7 +1411,7 @@
                 "y": 6
     
             },
-            "row-seven-hex-sixteen": {
+            "col-1p": {
                 "id": "117",
                 "income": ".50",
                 "terrain": "sea",
@@ -1423,7 +1423,7 @@
                 "y": 6
     
             },
-            "row-seven-hex-seventeen": {
+            "col-1q": {
                 "id": "118",
                 "income": ".50",
                 "terrain": "sea",
@@ -1436,8 +1436,8 @@
     
             }
         },
-        "hex-row-eight":{
-            "row-eight-hex-one": {
+        "row-1h":{
+            "col-1a": {
                 "id": "119",
                 "income": ".50",
                 "terrain": "sea",
@@ -1448,7 +1448,7 @@
                 "x": 0,
                 "y": 7
             },
-            "row-eight-hex-two": {
+            "col-1b": {
                 "id": "120",
                 "income": ".50",
                 "terrain": "sea",
@@ -1460,7 +1460,7 @@
                 "y": 7
     
             },
-            "row-eight-hex-three": {
+            "col-1c": {
                 "id": "121",
                 "income": ".50",
                 "terrain": "sea",
@@ -1472,7 +1472,7 @@
                 "y": 7
     
             },
-            "row-eight-hex-four": {
+            "col-1d": {
                 "id": "122",
                 "income": ".50",
                 "terrain": "sea",
@@ -1484,7 +1484,7 @@
                 "y": 7
     
             },
-            "row-eight-hex-five": {
+            "col-1e": {
                 "id": "123",
                 "income": ".50",
                 "terrain": "sea",
@@ -1496,7 +1496,7 @@
                 "y": 7
     
             },
-            "row-eight-hex-six": {
+            "col-1f": {
                 "id": "124",
                 "income": ".50",
                 "terrain": "sea",
@@ -1508,7 +1508,7 @@
                 "y": 7
     
             },
-            "row-eight-hex-seven": {
+            "col-1g": {
                 "id": "125",
                 "income": ".50",
                 "terrain": "sea",
@@ -1520,7 +1520,7 @@
                 "y": 7
     
             },
-            "row-eight-hex-eight": {
+            "col-1h": {
                 "id": "126",
                 "income": ".50",
                 "terrain": "sea",
@@ -1532,7 +1532,7 @@
                 "y": 7
     
             },
-            "row-eight-hex-nine": {
+            "col-1i": {
                 "id": "127",
                 "income": ".50",
                 "terrain": "sea",
@@ -1544,7 +1544,7 @@
                 "y": 7
     
             },
-            "row-eight-hex-ten": {
+            "col-1j": {
                 "id": "128",
                 "income": ".50",
                 "terrain": "sea",
@@ -1556,7 +1556,7 @@
                 "y": 7
     
             },
-            "row-eight-hex-eleven": {
+            "col-1k": {
                 "id": "129",
                 "income": ".50",
                 "terrain": "sea",
@@ -1568,7 +1568,7 @@
                 "y": 7
     
             },
-            "row-eight-hex-twelve": {
+            "col-1l": {
                 "id": "130",
                 "income": ".50",
                 "terrain": "sea",
@@ -1580,7 +1580,7 @@
                 "y": 7
     
             },
-            "row-eight-hex-thirteen": {
+            "col-1m": {
                 "id": "131",
                 "income": ".50",
                 "terrain": "sea",
@@ -1592,7 +1592,7 @@
                 "y": 7
     
             },
-            "row-eight-hex-fourteen": {
+            "col-1n": {
                 "id": "132",
                 "income": ".50",
                 "terrain": "sea",
@@ -1604,7 +1604,7 @@
                 "y": 7
     
             },
-            "row-eight-hex-fifteen": {
+            "col-1o": {
                 "id": "133",
                 "income": ".50",
                 "terrain": "sea",
@@ -1616,7 +1616,7 @@
                 "y": 7
     
             },
-            "row-eight-hex-sixteen": {
+            "col-1p": {
                 "id": "134",
                 "income": ".50",
                 "terrain": "sea",
@@ -1628,7 +1628,7 @@
                 "y": 7
     
             },
-            "row-eight-hex-seventeen": {
+            "col-1q": {
                 "id": "135",
                 "income": ".50",
                 "terrain": "sea",
@@ -1641,8 +1641,8 @@
     
             }
         },
-        "hex-row-nine":{
-            "row-nine-hex-one": {
+        "row-1i":{
+            "col-1a": {
                 "id": "136",
                 "income": ".50",
                 "terrain": "sea",
@@ -1653,7 +1653,7 @@
                 "x": 0,
                 "y": 8
             },
-            "row-nine-hex-two": {
+            "col-1b": {
                 "id": "137",
                 "income": ".50",
                 "terrain": "sea",
@@ -1665,7 +1665,7 @@
                 "y": 8
     
             },
-            "row-nine-hex-three": {
+            "col-1c": {
                 "id": "138",
                 "income": ".50",
                 "terrain": "sea",
@@ -1677,7 +1677,7 @@
                 "y": 8
     
             },
-            "row-nine-hex-four": {
+            "col-1d": {
                 "id": "139",
                 "income": ".50",
                 "terrain": "sea",
@@ -1689,7 +1689,7 @@
                 "y": 8
     
             },
-            "row-nine-hex-five": {
+            "col-1e": {
                 "id": "140",
                 "income": ".50",
                 "terrain": "sea",
@@ -1701,7 +1701,7 @@
                 "y": 8
     
             },
-            "row-nine-hex-six": {
+            "col-1f": {
                 "id": "141",
                 "income": ".50",
                 "terrain": "sea",
@@ -1713,7 +1713,7 @@
                 "y": 8
     
             },
-            "row-nine-hex-seven": {
+            "col-1g": {
                 "id": "142",
                 "income": ".50",
                 "terrain": "sea",
@@ -1725,7 +1725,7 @@
                 "y": 8
     
             },
-            "row-nine-hex-eight": {
+            "col-1h": {
                 "id": "143",
                 "income": ".50",
                 "terrain": "sea",
@@ -1737,7 +1737,7 @@
                 "y": 8
     
             },
-            "row-nine-hex-nine": {
+            "col-1i": {
                 "id": "144",
                 "income": ".50",
                 "terrain": "sea",
@@ -1749,7 +1749,7 @@
                 "y": 8
     
             },
-            "row-nine-hex-ten": {
+            "col-1j": {
                 "id": "145",
                 "income": ".50",
                 "terrain": "sea",
@@ -1761,7 +1761,7 @@
                 "y": 8
     
             },
-            "row-nine-hex-eleven": {
+            "col-1k": {
                 "id": "146",
                 "income": ".50",
                 "terrain": "sea",
@@ -1773,7 +1773,7 @@
                 "y": 8
     
             },
-            "row-nine-hex-twelve": {
+            "col-1l": {
                 "id": "147",
                 "income": ".50",
                 "terrain": "sea",
@@ -1785,7 +1785,7 @@
                 "y": 8
     
             },
-            "row-nine-hex-thirteen": {
+            "col-1m": {
                 "id": "148",
                 "income": ".50",
                 "terrain": "sea",
@@ -1797,7 +1797,7 @@
                 "y": 8
     
             },
-            "row-nine-hex-fourteen": {
+            "col-1n": {
                 "id": "149",
                 "income": ".50",
                 "terrain": "sea",
@@ -1809,7 +1809,7 @@
                 "y": 8
     
             },
-            "row-nine-hex-fifteen": {
+            "col-1o": {
                 "id": "150",
                 "income": ".50",
                 "terrain": "sea",
@@ -1821,7 +1821,7 @@
                 "y": 8
     
             },
-            "row-nine-hex-sixteen": {
+            "col-1p": {
                 "id": "151",
                 "income": ".50",
                 "terrain": "sea",
@@ -1833,7 +1833,7 @@
                 "y": 8
     
             },
-            "row-nine-hex-seventeen": {
+            "col-1q": {
                 "id": "152",
                 "income": ".50",
                 "terrain": "sea",
@@ -1846,8 +1846,8 @@
     
             }
         },
-        "hex-row-ten":{
-            "row-ten-hex-one": {
+        "row-1j":{
+            "col-1a": {
                 "id": "153",
                 "income": ".50",
                 "terrain": "sea",
@@ -1858,7 +1858,7 @@
                 "x": 0,
                 "y": 9
             },
-            "row-ten-hex-two": {
+            "col-1b": {
                 "id": "154",
                 "income": ".50",
                 "terrain": "sea",
@@ -1870,7 +1870,7 @@
                 "y": 9
     
             },
-            "row-ten-hex-three": {
+            "col-1c": {
                 "id": "155",
                 "income": ".50",
                 "terrain": "sea",
@@ -1882,7 +1882,7 @@
                 "y": 9
     
             },
-            "row-ten-hex-four": {
+            "col-1d": {
                 "id": "156",
                 "income": ".50",
                 "terrain": "sea",
@@ -1894,7 +1894,7 @@
                 "y": 9
     
             },
-            "row-ten-hex-five": {
+            "col-1e": {
                 "id": "157",
                 "income": ".50",
                 "terrain": "sea",
@@ -1906,7 +1906,7 @@
                 "y": 9
     
             },
-            "row-ten-hex-six": {
+            "col-1f": {
                 "id": "158",
                 "income": ".50",
                 "terrain": "sea",
@@ -1918,7 +1918,7 @@
                 "y": 9
     
             },
-            "row-ten-hex-seven": {
+            "col-1g": {
                 "id": "159",
                 "income": ".50",
                 "terrain": "sea",
@@ -1930,7 +1930,7 @@
                 "y": 9
     
             },
-            "row-ten-hex-eight": {
+            "col-1h": {
                 "id": "160",
                 "income": ".50",
                 "terrain": "sea",
@@ -1942,7 +1942,7 @@
                 "y": 9
     
             },
-            "row-ten-hex-nine": {
+            "col-1i": {
                 "id": "161",
                 "income": ".50",
                 "terrain": "sea",
@@ -1954,7 +1954,7 @@
                 "y": 9
     
             },
-            "row-ten-hex-ten": {
+            "col-1j": {
                 "id": "162",
                 "income": ".50",
                 "terrain": "sea",
@@ -1966,7 +1966,7 @@
                 "y": 9
     
             },
-            "row-ten-hex-eleven": {
+            "col-1k": {
                 "id": "163",
                 "income": ".50",
                 "terrain": "sea",
@@ -1978,7 +1978,7 @@
                 "y": 9
     
             },
-            "row-ten-hex-twelve": {
+            "col-1l": {
                 "id": "164",
                 "income": ".50",
                 "terrain": "sea",
@@ -1990,7 +1990,7 @@
                 "y": 9
     
             },
-            "row-ten-hex-thirteen": {
+            "col-1m": {
                 "id": "165",
                 "income": ".50",
                 "terrain": "sea",
@@ -2002,7 +2002,7 @@
                 "y": 9
     
             },
-            "row-ten-hex-fourteen": {
+            "col-1n": {
                 "id": "166",
                 "income": ".50",
                 "terrain": "sea",
@@ -2014,7 +2014,7 @@
                 "y": 9
     
             },
-            "row-ten-hex-fifteen": {
+            "col-1o": {
                 "id": "167",
                 "income": ".50",
                 "terrain": "sea",
@@ -2026,7 +2026,7 @@
                 "y": 9
     
             },
-            "row-ten-hex-sixteen": {
+            "col-1p": {
                 "id": "168",
                 "income": ".50",
                 "terrain": "sea",
@@ -2038,7 +2038,7 @@
                 "y": 9
     
             },
-            "row-ten-hex-seventeen": {
+            "col-1q": {
                 "id": "169",
                 "income": ".50",
                 "terrain": "sea",
@@ -2051,8 +2051,8 @@
     
             }
         },    
-        "hex-row-eleven":{
-            "row-eleven-hex-one": {
+        "row-1k":{
+            "col-1a": {
                 "id": "170",
                 "income": ".50",
                 "terrain": "sea",
@@ -2063,7 +2063,7 @@
                 "x": 0,
                 "y": 10
             },
-            "row-eleven-hex-two": {
+            "col-1b": {
                 "id": "171",
                 "income": ".50",
                 "terrain": "sea",
@@ -2075,7 +2075,7 @@
                 "y": 10
     
             },
-            "row-eleven-hex-three": {
+            "col-1c": {
                 "id": "172",
                 "income": ".50",
                 "terrain": "sea",
@@ -2087,7 +2087,7 @@
                 "y": 10
     
             },
-            "row-eleven-hex-four": {
+            "col-1d": {
                 "id": "173",
                 "income": ".50",
                 "terrain": "sea",
@@ -2099,7 +2099,7 @@
                 "y": 10
     
             },
-            "row-eleven-hex-five": {
+            "col-1e": {
                 "id": "174",
                 "income": ".50",
                 "terrain": "sea",
@@ -2111,7 +2111,7 @@
                 "y": 10
     
             },
-            "row-eleven-hex-six": {
+            "col-1f": {
                 "id": "175",
                 "income": ".50",
                 "terrain": "sea",
@@ -2123,7 +2123,7 @@
                 "y": 10
     
             },
-            "row-eleven-hex-seven": {
+            "col-1g": {
                 "id": "176",
                 "income": ".50",
                 "terrain": "sea",
@@ -2135,7 +2135,7 @@
                 "y": 10
     
             },
-            "row-eleven-hex-eight": {
+            "col-1h": {
                 "id": "177",
                 "income": ".50",
                 "terrain": "sea",
@@ -2147,7 +2147,7 @@
                 "y": 10
     
             },
-            "row-eleven-hex-nine": {
+            "col-1i": {
                 "id": "178",
                 "income": ".50",
                 "terrain": "sea",
@@ -2159,7 +2159,7 @@
                 "y": 10
     
             },
-            "row-eleven-hex-ten": {
+            "col-1j": {
                 "id": "179",
                 "income": ".50",
                 "terrain": "sea",
@@ -2171,7 +2171,7 @@
                 "y": 10
     
             },
-            "row-eleven-hex-eleven": {
+            "col-1k": {
                 "id": "180",
                 "income": ".50",
                 "terrain": "sea",
@@ -2183,7 +2183,7 @@
                 "y": 10
     
             },
-            "row-eleven-hex-twelve": {
+            "col-1l": {
                 "id": "181",
                 "income": ".50",
                 "terrain": "sea",
@@ -2195,7 +2195,7 @@
                 "y": 10
     
             },
-            "row-eleven-hex-thirteen": {
+            "col-1m": {
                 "id": "182",
                 "income": ".50",
                 "terrain": "sea",
@@ -2207,7 +2207,7 @@
                 "y": 10
     
             },
-            "row-eleven-hex-fourteen": {
+            "col-1n": {
                 "id": "183",
                 "income": ".50",
                 "terrain": "sea",
@@ -2219,7 +2219,7 @@
                 "y": 10
     
             },
-            "row-eleven-hex-fifteen": {
+            "col-1o": {
                 "id": "184",
                 "income": ".50",
                 "terrain": "sea",
@@ -2231,7 +2231,7 @@
                 "y": 10
     
             },
-            "row-eleven-hex-sixteen": {
+            "col-1p": {
                 "id": "185",
                 "income": ".50",
                 "terrain": "sea",
@@ -2243,7 +2243,7 @@
                 "y": 10
     
             },
-            "row-eleven-hex-seventeen": {
+            "col-1q": {
                 "id": "186",
                 "income": ".50",
                 "terrain": "sea",
@@ -2256,8 +2256,8 @@
     
             }
         },
-        "hex-row-twelve":{
-            "row-twelve-hex-one": {
+        "row-1l":{
+            "col-1a": {
                 "id": "187",
                 "income": ".50",
                 "terrain": "sea",
@@ -2268,7 +2268,7 @@
                 "x": 0,
                 "y": 11
             },
-            "row-twelve-hex-two": {
+            "col-1b": {
                 "id": "188",
                 "income": ".50",
                 "terrain": "sea",
@@ -2280,7 +2280,7 @@
                 "y": 11
     
             },
-            "row-twelve-hex-three": {
+            "col-1c": {
                 "id": "189",
                 "income": ".50",
                 "terrain": "sea",
@@ -2292,7 +2292,7 @@
                 "y": 11
     
             },
-            "row-twelve-hex-four": {
+            "col-1d": {
                 "id": "190",
                 "income": ".50",
                 "terrain": "sea",
@@ -2304,7 +2304,7 @@
                 "y": 11
     
             },
-            "row-twelve-hex-five": {
+            "col-1e": {
                 "id": "191",
                 "income": ".50",
                 "terrain": "sea",
@@ -2316,7 +2316,7 @@
                 "y": 11
     
             },
-            "row-twelve-hex-six": {
+            "col-1f": {
                 "id": "192",
                 "income": ".50",
                 "terrain": "sea",
@@ -2328,7 +2328,7 @@
                 "y": 11
     
             },
-            "row-twelve-hex-seven": {
+            "col-1g": {
                 "id": "193",
                 "income": ".50",
                 "terrain": "sea",
@@ -2340,7 +2340,7 @@
                 "y": 11
     
             },
-            "row-twelve-hex-eight": {
+            "col-1h": {
                 "id": "194",
                 "income": ".50",
                 "terrain": "sea",
@@ -2352,7 +2352,7 @@
                 "y": 11
     
             },
-            "row-twelve-hex-nine": {
+            "col-1i": {
                 "id": "195",
                 "income": ".50",
                 "terrain": "sea",
@@ -2364,7 +2364,7 @@
                 "y": 11
     
             },
-            "row-twelve-hex-ten": {
+            "col-1j": {
                 "id": "196",
                 "income": ".50",
                 "terrain": "sea",
@@ -2376,7 +2376,7 @@
                 "y": 11
     
             },
-            "row-twelve-hex-eleven": {
+            "col-1k": {
                 "id": "197",
                 "income": ".50",
                 "terrain": "sea",
@@ -2388,7 +2388,7 @@
                 "y": 11
     
             },
-            "row-twelve-hex-twelve": {
+            "col-1l": {
                 "id": "198",
                 "income": ".50",
                 "terrain": "sea",
@@ -2400,7 +2400,7 @@
                 "y": 11
     
             },
-            "row-twelve-hex-thirteen": {
+            "col-1m": {
                 "id": "199",
                 "income": ".50",
                 "terrain": "sea",
@@ -2412,7 +2412,7 @@
                 "y": 11
     
             },
-            "row-twelve-hex-fourteen": {
+            "col-1n": {
                 "id": "200",
                 "income": ".50",
                 "terrain": "sea",
@@ -2424,7 +2424,7 @@
                 "y": 11
     
             },
-            "row-twelve-hex-fifteen": {
+            "col-1o": {
                 "id": "201",
                 "income": ".50",
                 "terrain": "sea",
@@ -2436,7 +2436,7 @@
                 "y": 11
     
             },
-            "row-twelve-hex-sixteen": {
+            "col-1p": {
                 "id": "202",
                 "income": ".50",
                 "terrain": "sea",
@@ -2448,7 +2448,7 @@
                 "y": 11
     
             },
-            "row-twelve-hex-seventeen": {
+            "col-1q": {
                 "id": "203",
                 "income": ".50",
                 "terrain": "sea",
@@ -2461,8 +2461,8 @@
     
             }
         },
-        "hex-row-thirteen":{
-            "row-thirteen-hex-one": {
+        "row-1m":{
+            "col-1a": {
                 "id": "204",
                 "income": ".50",
                 "terrain": "sea",
@@ -2473,7 +2473,7 @@
                 "x": 0,
                 "y": 12
             },
-            "row-thirteen-hex-two": {
+            "col-1b": {
                 "id": "205",
                 "income": ".50",
                 "terrain": "sea",
@@ -2485,7 +2485,7 @@
                 "y": 12
     
             },
-            "row-thirteen-hex-three": {
+            "col-1c": {
                 "id": "206",
                 "income": ".50",
                 "terrain": "sea",
@@ -2497,7 +2497,7 @@
                 "y": 12
     
             },
-            "row-thirteen-hex-four": {
+            "col-1d": {
                 "id": "207",
                 "income": ".50",
                 "terrain": "sea",
@@ -2509,7 +2509,7 @@
                 "y": 12
     
             },
-            "row-thirteen-hex-five": {
+            "col-1e": {
                 "id": "208",
                 "income": ".50",
                 "terrain": "sea",
@@ -2521,7 +2521,7 @@
                 "y": 12
     
             },
-            "row-thirteen-hex-six": {
+            "col-1f": {
                 "id": "209",
                 "income": ".50",
                 "terrain": "sea",
@@ -2533,7 +2533,7 @@
                 "y": 12
     
             },
-            "row-thirteen-hex-seven": {
+            "col-1g": {
                 "id": "210",
                 "income": ".50",
                 "terrain": "sea",
@@ -2545,7 +2545,7 @@
                 "y": 12
     
             },
-            "row-thirteen-hex-eight": {
+            "col-1h": {
                 "id": "211",
                 "income": ".50",
                 "terrain": "sea",
@@ -2557,7 +2557,7 @@
                 "y": 12
     
             },
-            "row-thirteen-hex-nine": {
+            "col-1i": {
                 "id": "212",
                 "income": ".50",
                 "terrain": "sea",
@@ -2569,7 +2569,7 @@
                 "y": 12
     
             },
-            "row-thirteen-hex-ten": {
+            "col-1j": {
                 "id": "213",
                 "income": ".50",
                 "terrain": "sea",
@@ -2581,7 +2581,7 @@
                 "y": 12
     
             },
-            "row-thirteen-hex-eleven": {
+            "col-1k": {
                 "id": "214",
                 "income": ".50",
                 "terrain": "sea",
@@ -2593,7 +2593,7 @@
                 "y": 12
     
             },
-            "row-thirteen-hex-twelve": {
+            "col-1l": {
                 "id": "215",
                 "income": ".50",
                 "terrain": "sea",
@@ -2605,7 +2605,7 @@
                 "y": 12
     
             },
-            "row-thirteen-hex-thirteen": {
+            "col-1m": {
                 "id": "216",
                 "income": ".50",
                 "terrain": "sea",
@@ -2617,7 +2617,7 @@
                 "y": 12
     
             },
-            "row-thirteen-hex-fourteen": {
+            "col-1n": {
                 "id": "217",
                 "income": ".50",
                 "terrain": "sea",
@@ -2629,7 +2629,7 @@
                 "y": 12
     
             },
-            "row-thirteen-hex-fifteen": {
+            "col-1o": {
                 "id": "218",
                 "income": ".50",
                 "terrain": "sea",
@@ -2641,7 +2641,7 @@
                 "y": 12
     
             },
-            "row-thirteen-hex-sixteen": {
+            "col-1p": {
                 "id": "219",
                 "income": ".50",
                 "terrain": "sea",
@@ -2653,7 +2653,7 @@
                 "y": 12
     
             },
-            "row-thirteen-hex-seventeen": {
+            "col-1q": {
                 "id": "220",
                 "income": ".50",
                 "terrain": "sea",
@@ -2666,8 +2666,8 @@
     
             }
         },
-        "hex-row-fourteen":{
-            "row-fourteen-hex-one": {
+        "row-1n":{
+            "col-1a": {
                 "id": "221",
                 "income": ".50",
                 "terrain": "sea",
@@ -2678,7 +2678,7 @@
                 "x": 0,
                 "y": 13
             },
-            "row-fourteen-hex-two": {
+            "col-1b": {
                 "id": "222",
                 "income": ".50",
                 "terrain": "sea",
@@ -2690,7 +2690,7 @@
                 "y": 13
     
             },
-            "row-fourteen-hex-three": {
+            "col-1c": {
                 "id": "223",
                 "income": ".50",
                 "terrain": "sea",
@@ -2702,7 +2702,7 @@
                 "y": 13
     
             },
-            "row-fourteen-hex-four": {
+            "col-1d": {
                 "id": "224",
                 "income": ".50",
                 "terrain": "sea",
@@ -2714,7 +2714,7 @@
                 "y": 13
     
             },
-            "row-fourteen-hex-five": {
+            "col-1e": {
                 "id": "225",
                 "income": ".50",
                 "terrain": "sea",
@@ -2726,7 +2726,7 @@
                 "y": 13
     
             },
-            "row-fourteen-hex-six": {
+            "col-1f": {
                 "id": "226",
                 "income": ".50",
                 "terrain": "sea",
@@ -2738,7 +2738,7 @@
                 "y": 13
     
             },
-            "row-fourteen-hex-seven": {
+            "col-1g": {
                 "id": "227",
                 "income": ".50",
                 "terrain": "sea",
@@ -2750,7 +2750,7 @@
                 "y": 13
     
             },
-            "row-fourteen-hex-eight": {
+            "col-1h": {
                 "id": "228",
                 "income": ".50",
                 "terrain": "sea",
@@ -2762,7 +2762,7 @@
                 "y": 13
     
             },
-            "row-fourteen-hex-nine": {
+            "col-1i": {
                 "id": "229",
                 "income": ".50",
                 "terrain": "sea",
@@ -2774,7 +2774,7 @@
                 "y": 13
     
             },
-            "row-fourteen-hex-ten": {
+            "col-1j": {
                 "id": "230",
                 "income": ".50",
                 "terrain": "sea",
@@ -2786,7 +2786,7 @@
                 "y": 13
     
             },
-            "row-fourteen-hex-eleven": {
+            "col-1k": {
                 "id": "231",
                 "income": ".50",
                 "terrain": "sea",
@@ -2798,7 +2798,7 @@
                 "y": 13
     
             },
-            "row-fourteen-hex-twelve": {
+            "col-1l": {
                 "id": "232",
                 "income": ".50",
                 "terrain": "sea",
@@ -2810,7 +2810,7 @@
                 "y": 13
     
             },
-            "row-fourteen-hex-thirteen": {
+            "col-1m": {
                 "id": "233",
                 "income": ".50",
                 "terrain": "sea",
@@ -2822,7 +2822,7 @@
                 "y": 13
     
             },
-            "row-fourteen-hex-fourteen": {
+            "col-1n": {
                 "id": "234",
                 "income": ".50",
                 "terrain": "sea",
@@ -2834,7 +2834,7 @@
                 "y": 13
     
             },
-            "row-fourteen-hex-fifteen": {
+            "col-1o": {
                 "id": "235",
                 "income": ".50",
                 "terrain": "sea",
@@ -2846,7 +2846,7 @@
                 "y": 13
     
             },
-            "row-fourteen-hex-sixteen": {
+            "col-1p": {
                 "id": "236",
                 "income": ".50",
                 "terrain": "sea",
@@ -2858,7 +2858,7 @@
                 "y": 13
     
             },
-            "row-fourteen-hex-seventeen": {
+            "col-1q": {
                 "id": "237",
                 "income": ".50",
                 "terrain": "sea",

@@ -1,13 +1,17 @@
-import React, { useContext } from "react";
-import  AppData from '../Data/app-data';
+import React from "react";
 import CampagnImage from '../assets/images/BattleCompanies_MapCampaign.jpg'
 import HexContainer from "../Components/Hex/HexContainer.js";
+import useDataAPI from '../Hooks/Data';
 
 
 const HomePage = () => {
 
-  let HexContainerInformation = useContext(AppData);
-  HexContainerInformation = HexContainerInformation.appData.mapDataContainer;
+  let HexMapData = useDataAPI('hexGrid');
+  let mapData = [];
+
+  if(HexMapData !== undefined) {
+    mapData = HexMapData;
+  }
 
 
   return (
@@ -89,7 +93,7 @@ const HomePage = () => {
                 <div className="map__inner__container">
                   <img src={CampagnImage} alt=""/>
                   {
-                        HexContainerInformation.map((result, key) => {
+                    mapData.map((result, key) => {
                         let classNumber = key + 1;
                         return <HexContainer key={key} hex_row={classNumber} data={result}/>
                       })
