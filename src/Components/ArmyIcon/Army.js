@@ -4,9 +4,9 @@ import orkImage from '../../assets/images/ork-army.png'
 const Army = (props) => {
     const getLocationHandler = (e) => {
         //props.onClickEvent(props.mapPointX, props.mapPointY);
-        console.log()
+        console.log(props.idName)
         props.onClickEvent(e.dataTransfer.setData("text/plain", 
-                `{"x": "${e.target.getAttribute('x')}", "y": "${e.target.getAttribute('y')}", "id": "${e.target.getAttribute(props.idName)}"}`));
+                `{"x": "${e.target.getAttribute('x')}", "y": "${e.target.getAttribute('y')}", "id": "${props.idName}"}`));
     }
 
     return(

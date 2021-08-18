@@ -1,40 +1,44 @@
 import React from "react";
 import useDataAPI from '../../Hooks/Data';
-// import OrkArmy from "../ArmyIcon/Army";
+import OrkArmy from "../ArmyIcon/Army";
 // import AppData from '../../Data/app-data';
 // import useArmyData from './../../Hooks/armyDataHook';
 
 const Hex = (props) => {
-     const data = props.data;
+    const data = props.data;
     const fullArmyData = useDataAPI('armies');
-     let armyData = [];
+    let armyData = [];
+    let currentArmy;
 
-     if(fullArmyData !== undefined) {
+    // loop though army data to see if there is an army data for that point
+    //I did not do this from with setState as did not want the function to rerender
+    if(fullArmyData !== undefined) {
         armyData.push(fullArmyData);
-        console.log(armyData);
+        //console.log(armyData)
+        for (const iterator of armyData) { 
+          for (const result of iterator) {
+            for (const finalResult of result) {
+              if(finalResult.x === data.x && finalResult.y === data.y){
+                currentArmy = finalResult
+              }
+
+            }
+            
+           }
+
+        }
     }
-
-
-
-
-    //filter through the ork army data to see if there is an ork amy on the hex, if so return the army data
-    // orkAmies.forEach(element => {
-    //   if(element.x === data.x && element.y === data.y){
-    //     return currentArmy = element;
-    //   }else{
-    //     return currentArmy = false;
-    //   }
-    // });
    
     //this function is the props lift up function to get army corodinates and data
-    // const getLocation = ()=> {
+    const getLocation = ()=> {
 
-    //      return;
-    //   }
+         return;
+      }
 
     const dropHandler = (e) => {
         e.preventDefault();
         const armyCoOrdinated = JSON.parse(e.dataTransfer.getData("text/plain"));
+        console.log(armyCoOrdinated)
         const locationArmyMovingTo = {x: e.target.getAttribute("x"), y:  e.target.getAttribute("y")}
 
         // console.log(armyCoOrdinated, locationArmyMovingTo);
@@ -44,7 +48,7 @@ const Hex = (props) => {
          //check to see if can move to this part of the map
           // if so append to the map
           // and update the json file for the map and the data
-          e.target.appendChild(document.getElementById("ork-1"));
+          e.target.appendChild(document.getElementById(armyCoOrdinated.id));
         };
  
 
@@ -60,20 +64,21 @@ const Hex = (props) => {
       <div className="hex_top"></div>
       <div
         className="hex_body"
-        // id={data.id}
+        id={data.id}
         onDragOver={dragHandler}
         onDrop={dropHandler}
-        // x={data.x}
-        // y={data.y}
+        x={data.x}
+        y={data.y}
       >
-        {/* {currentArmy && (
+        {currentArmy && (
           <OrkArmy
-            idName="ork-1"
+            idName={currentArmy.id}
+            armyData={currentArmy}
             mapPointX={currentArmy.x}
             mapPointY={currentArmy.y}
             onClickEvent={getLocation}
           />
-        )} */}
+        ) }
       </div>
       <div className="hex_bottom"></div>
     </div>

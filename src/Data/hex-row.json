@@ -2873,24 +2873,22 @@
         } 
     },
     "armies":{
-        "orks": {
-            "orkArmy-1": {
+        "orks": [
+            {   "id": "ork-1",
+                "armyList": [],
+                "x": 0,
+                "y": 0,
+                "points": 0
+            }
+        ],
+        "sigmar":[
+                {"id": "sig-1",
                 "armyList": [],
                 "x": 0,
                 "y": 0,
                 "points": 0
             }
 
-        },
-        "sigmar":{
-            "sigmarArmy-1": {
-                "armyList": [],
-                "x": 0,
-                "y": 0,
-                "points": 0
-            }
-
-        }
+        ]
     }
-       
 }
