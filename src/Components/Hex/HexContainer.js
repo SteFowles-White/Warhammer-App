@@ -2,7 +2,7 @@ import React from "react";
 import Hex from "./Hex";
 
 const HexContainer = (props) => {
-
+    
     const HexArray = [];
     const HexContainerClasses = `hex__container hex-row-${props.hex_row}`;
 

@@ -28,7 +28,10 @@ const movementCheck = (armyPointX, armyPointY, mapPointX, mapPointY) => {
     // console.log('first', mapX - armyX)
     // console.log('Second',  mapY - armyY )
     // console.log('mapx', PointX, PointY );
-    console.log('first', armyX % 2)
+    let armyOdd =  armyX % 2 === 0;
+
+
+    // This is it
     console.log('second', (armyX + 1 === mapX) && (mapY === armyY + 1))
     console.log('second', (armyX + 1 === mapX) && (mapY === armyY + 1))
     console.log('third', (armyX + 1  === mapX) && (mapY === armyY - 1))
@@ -36,9 +39,11 @@ const movementCheck = (armyPointX, armyPointY, mapPointX, mapPointY) => {
     //&& PointY === true
 
       if(PointX === true && PointY === true) {
-        if(armyX % 2 !== 0 && 
-          ((mapY - (armyX + 1)) === 1 || 
-          (mapY - (armyX + 1)) === -1)){
+        if(
+          (armyOdd === false) &&
+          (((armyX + 1 === mapX) && (mapY === armyY + 1)) ||
+          ((armyX + 1  === mapX) && (mapY === armyY - 1)))
+        ){
               return false;
             }
         if( ((mapY - (armyY + 1)) !== 0 || (mapY - (armyY + 1)) !== -2 ) && 
@@ -77,6 +82,7 @@ const Hex = (props) => {
 
     const dropHandler = (e) => {
         e.preventDefault();
+        console.log(data.x, data.y)
         const armyCoOrdinated = JSON.parse(e.dataTransfer.getData("text/plain"));
         const locationArmyMovingTo = {x: e.target.getAttribute("x"), y:  e.target.getAttribute("y")}
         const army = {
