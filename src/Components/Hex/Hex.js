@@ -4,6 +4,31 @@ import OrkArmy from "../ArmyIcon/Army";
 // import AppData from '../../Data/app-data';
 // import useArmyData from './../../Hooks/armyDataHook';
 
+
+
+
+// Only need to render this function once and use it to check location
+const movementCheck = (armyPointX, armyPointY, mapPointX, mapPointY) => {
+    console.log(mapPointX, mapPointX - 1)
+    console.log(mapPointY, mapPointY - 1)
+    console.log(armyPointX)
+    console.log(armyPointY)
+    const PointX  = armyPointX - mapPointX === 0 || armyPointX - mapPointX - 1 >= 0 || armyPointX + mapPointX + 1 === 0 ? true : false;
+    const PointY =  armyPointY - mapPointY === 0 || armyPointY - mapPointY - 1 >= 0 || armyPointY - mapPointY + 1 === 0 ? true : false;
+
+    console.log('PointXTruthy:', PointX);
+    console.log('PointYTruthy:', PointY);
+
+
+    if(PointX === true && PointY === true){
+      return true;
+    }
+    else{
+      return false;
+    }
+
+}
+
 const Hex = (props) => {
     const data = props.data;
     const fullArmyData = useDataAPI('armies');
@@ -28,12 +53,6 @@ const Hex = (props) => {
 
         }
     }
-   
-    //this function is the props lift up function to get army corodinates and data
-    const getLocation = ()=> {
-
-         return;
-      }
 
     const dropHandler = (e) => {
         e.preventDefault();
@@ -45,15 +64,19 @@ const Hex = (props) => {
         if(armyCoOrdinated.x === locationArmyMovingTo.x && armyCoOrdinated.y === locationArmyMovingTo.y){
           return;
         }else{
-         //check to see if can move to this part of the map
-          // if so append to the map
-          // and update the json file for the map and the data
-          e.target.appendChild(document.getElementById(armyCoOrdinated.id));
+            //check to see if can move to this part of the map
+            if(movementCheck(armyCoOrdinated.x, armyCoOrdinated.y, locationArmyMovingTo.x, locationArmyMovingTo.y)) {
+              // if so append to the map
+              e.target.appendChild(document.getElementById(armyCoOrdinated.id));
+              
+              // and update the json file for the map and the data
+            }else {
+              return
+            }
+
+
         };
  
-
-
-        //change json data so is army === true and the current hex is army === false
     };
     const dragHandler = (e) => {
         e.preventDefault();
@@ -76,7 +99,6 @@ const Hex = (props) => {
             armyData={currentArmy}
             mapPointX={currentArmy.x}
             mapPointY={currentArmy.y}
-            onClickEvent={getLocation}
           />
         ) }
       </div>
