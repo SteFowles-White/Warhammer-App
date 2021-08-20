@@ -1,7 +1,7 @@
 import React from "react";
 import CampagnImage from '../assets/images/BattleCompanies_MapCampaign.jpg'
 import HexContainer from "../Components/Hex/HexContainer.js";
-import useDataAPI from '../Hooks/Data';
+import useDataAPI from '../Hooks/useDataFetchApi';
 
 
 const HomePage = () => {

@@ -1,7 +1,7 @@
 import { useState, useEffect }  from 'react';
 
 
-const useDataAPI = (dataType) => {
+const useDataFetchApi = (dataType) => {
     const [getHttpRequest, setHttpRequest] = useState();
     
  
@@ -28,4 +28,4 @@ const useDataAPI = (dataType) => {
 
 }
 
-export default useDataAPI;
+export default useDataFetchApi;

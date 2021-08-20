@@ -1,5 +1,5 @@
 import React from "react";
-import useDataAPI from '../../Hooks/Data';
+import useDataFetchApi from '../../Hooks/useDataFetchApi';
 import OrkArmy from "../ArmyIcon/Army";
 // import AppData from '../../Data/app-data';
 // import useArmyData from './../../Hooks/armyDataHook';
@@ -9,29 +9,52 @@ import OrkArmy from "../ArmyIcon/Army";
 
 // Only need to render this function once and use it to check location
 const movementCheck = (armyPointX, armyPointY, mapPointX, mapPointY) => {
-    console.log(mapPointX, mapPointX - 1)
-    console.log(mapPointY, mapPointY - 1)
-    console.log(armyPointX)
-    console.log(armyPointY)
-    const PointX  = armyPointX - mapPointX === 0 || armyPointX - mapPointX - 1 >= 0 || armyPointX + mapPointX + 1 === 0 ? true : false;
-    const PointY =  armyPointY - mapPointY === 0 || armyPointY - mapPointY - 1 >= 0 || armyPointY - mapPointY + 1 === 0 ? true : false;
+    const armyX =   typeof(armyPointX) === 'string' ? parseInt(armyPointX) : armyPointX;
+    const armyY =   typeof(armyPointY) === 'string' ? parseInt(armyPointY) : armyPointY;
+    const mapX =   typeof(mapPointX) === 'string' ? parseInt(mapPointX) : mapPointX;
+    const mapY =   typeof(mapPointY) === 'string' ? parseInt(mapPointY) : mapPointY;
 
-    console.log('PointXTruthy:', PointX);
-    console.log('PointYTruthy:', PointY);
+    const PointX  = mapX - armyX === 0 || 
+                    ((mapX  - armyX) <= 0 && (mapX  - armyX) >= -1 ) ||
+                    ((mapX  - armyX) >= 0 && (mapX  - armyX) <= 1 ) ? true : false; 
 
 
-    if(PointX === true && PointY === true){
-      return true;
-    }
-    else{
-      return false;
-    }
+
+    const PointY =  mapY - armyY === 0 ||
+                  ((mapY  - armyY) <= 0 && (mapY  - armyY) >= -1 ) ||
+                  ((mapY  - armyY) >= 0 && (mapY  - armyY) <= 1 )? true : false;
+
+
+    // console.log('first', mapX - armyX)
+    // console.log('Second',  mapY - armyY )
+    // console.log('mapx', PointX, PointY );
+    console.log('first', armyX % 2)
+    console.log('second', (armyX + 1 === mapX) && (mapY === armyY + 1))
+    console.log('second', (armyX + 1 === mapX) && (mapY === armyY + 1))
+    console.log('third', (armyX + 1  === mapX) && (mapY === armyY - 1))
+
+    //&& PointY === true
+
+      if(PointX === true && PointY === true) {
+        if(armyX % 2 !== 0 && 
+          ((mapY - (armyX + 1)) === 1 || 
+          (mapY - (armyX + 1)) === -1)){
+              return false;
+            }
+        if( ((mapY - (armyY + 1)) !== 0 || (mapY - (armyY + 1)) !== -2 ) && 
+            ((mapX - (armyX + 1)) !== 0 || (mapX - (armyX + 1)) !== -2 )){
+          return true;
+        }
+      }
+      else{
+        return false;
+      }
 
 }
 
 const Hex = (props) => {
     const data = props.data;
-    const fullArmyData = useDataAPI('armies');
+    const fullArmyData = useDataFetchApi('armies');
     let armyData = [];
     let currentArmy;
 
@@ -39,28 +62,31 @@ const Hex = (props) => {
     //I did not do this from with setState as did not want the function to rerender
     if(fullArmyData !== undefined) {
         armyData.push(fullArmyData);
-        //console.log(armyData)
         for (const iterator of armyData) { 
           for (const result of iterator) {
             for (const finalResult of result) {
               if(finalResult.x === data.x && finalResult.y === data.y){
                 currentArmy = finalResult
+                console.log(currentArmy)
               }
-
-            }
-            
-           }
-
+            } 
+          }
         }
     }
+
 
     const dropHandler = (e) => {
         e.preventDefault();
         const armyCoOrdinated = JSON.parse(e.dataTransfer.getData("text/plain"));
-        console.log(armyCoOrdinated)
         const locationArmyMovingTo = {x: e.target.getAttribute("x"), y:  e.target.getAttribute("y")}
+        const army = {
+                "id": "armyCoOrdinated.id",
+                "armyList": [],
+                "x": armyCoOrdinated.x,
+                "y": armyCoOrdinated.y,
+                "points": armyCoOrdinated.points
+        };
 
-        // console.log(armyCoOrdinated, locationArmyMovingTo);
         if(armyCoOrdinated.x === locationArmyMovingTo.x && armyCoOrdinated.y === locationArmyMovingTo.y){
           return;
         }else{
@@ -73,16 +99,14 @@ const Hex = (props) => {
             }else {
               return
             }
-
-
         };
- 
     };
+
     const dragHandler = (e) => {
         e.preventDefault();
     };
-
   return (
+
     <div className="hex">
       <div className="hex_top"></div>
       <div
@@ -96,7 +120,7 @@ const Hex = (props) => {
         {currentArmy && (
           <OrkArmy
             idName={currentArmy.id}
-            armyData={currentArmy}
+            armyPoints={currentArmy.points}
             mapPointX={currentArmy.x}
             mapPointY={currentArmy.y}
           />
