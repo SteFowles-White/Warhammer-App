@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import useDataFetchApi from '../../Hooks/useDataFetchApi';
 import OrkArmy from "../ArmyIcon/Army";
 // import AppData from '../../Data/app-data';
@@ -24,17 +24,7 @@ const movementCheck = (armyPointX, armyPointY, mapPointX, mapPointY) => {
                   ((mapY  - armyY) <= 0 && (mapY  - armyY) >= -1 ) ||
                   ((mapY  - armyY) >= 0 && (mapY  - armyY) <= 1 )? true : false;
 
-
-    // console.log('first', mapX - armyX)
-    // console.log('Second',  mapY - armyY )
-    // console.log('mapx', PointX, PointY );
     let armyOdd =  armyX % 2 === 0;
-
-
-    // This is it
-    console.log('second', (armyX + 1 === mapX) && (mapY === armyY + 1))
-    console.log('second', (armyX + 1 === mapX) && (mapY === armyY + 1))
-    console.log('third', (armyX + 1  === mapX) && (mapY === armyY - 1))
 
     //&& PointY === true
 
@@ -58,10 +48,14 @@ const movementCheck = (armyPointX, armyPointY, mapPointX, mapPointY) => {
 }
 
 const Hex = (props) => {
+    const [armyMovment, setArmyMovment] = useState();
+    const [count, setCount] = useState(0);
     const data = props.data;
     const fullArmyData = useDataFetchApi('armies');
     let armyData = [];
     let currentArmy;
+    
+
 
     // loop though army data to see if there is an army data for that point
     //I did not do this from with setState as did not want the function to rerender
@@ -79,6 +73,12 @@ const Hex = (props) => {
         }
     }
 
+    useEffect(() => {
+      console.log(armyMovment)
+        localStorage.setItem(`army`, JSON.stringify(armyMovment));
+
+
+    }, [armyMovment])
 
     const dropHandler = (e) => {
         e.preventDefault();
@@ -88,10 +88,11 @@ const Hex = (props) => {
         const army = {
                 "id": "armyCoOrdinated.id",
                 "armyList": [],
-                "x": armyCoOrdinated.x,
-                "y": armyCoOrdinated.y,
+                "x": locationArmyMovingTo.x,
+                "y": locationArmyMovingTo.y,
                 "points": armyCoOrdinated.points
         };
+
 
         if(armyCoOrdinated.x === locationArmyMovingTo.x && armyCoOrdinated.y === locationArmyMovingTo.y){
           return;
@@ -100,6 +101,8 @@ const Hex = (props) => {
             if(movementCheck(armyCoOrdinated.x, armyCoOrdinated.y, locationArmyMovingTo.x, locationArmyMovingTo.y)) {
               // if so append to the map
               e.target.appendChild(document.getElementById(armyCoOrdinated.id));
+
+              setArmyMovment(army);
               
               // and update the json file for the map and the data
             }else {
