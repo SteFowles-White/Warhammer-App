@@ -5,6 +5,7 @@
                 "id": "1",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": true,
                     "currentArmy": []
@@ -17,6 +18,7 @@
                 "id": "2",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -29,6 +31,7 @@
                 "id": "3",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -41,6 +44,7 @@
                 "id": "4",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -53,6 +57,7 @@
                 "id": "5",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -65,6 +70,7 @@
                 "id": "6",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -77,6 +83,7 @@
                 "id": "7",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -89,6 +96,7 @@
                 "id": "8",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -101,6 +109,7 @@
                 "id": "9",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -113,6 +122,7 @@
                 "id": "10",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -125,6 +135,7 @@
                 "id": "11",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -137,6 +148,7 @@
                 "id": "12",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -148,6 +160,7 @@
                 "id": "13",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -160,6 +173,7 @@
                 "id": "14",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -172,6 +186,7 @@
                 "id": "15",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -184,6 +199,7 @@
                 "id": "16",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -196,6 +212,7 @@
                 "id": "17",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -210,6 +227,7 @@
                 "id": "18a",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -221,6 +239,7 @@
                 "id": "18",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -233,6 +252,7 @@
                 "id": "19",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -245,6 +265,7 @@
                 "id": "20",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -257,6 +278,7 @@
                 "id": "21",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -269,6 +291,7 @@
                 "id": "22",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -281,6 +304,7 @@
                 "id": "23",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -293,6 +317,7 @@
                 "id": "24",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "Sigmar",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -305,6 +330,7 @@
                 "id": "25",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -317,6 +343,7 @@
                 "id": "26",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -329,6 +356,7 @@
                 "id": "27",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -341,6 +369,7 @@
                 "id": "28",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -353,6 +382,7 @@
                 "id": "29",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -365,6 +395,7 @@
                 "id": "30",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -377,6 +408,7 @@
                 "id": "31",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -389,6 +421,7 @@
                 "id": "32",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -401,6 +434,7 @@
                 "id": "33",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -416,6 +450,7 @@
                 "id": "34",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -427,6 +462,7 @@
                 "id": "35",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -439,6 +475,7 @@
                 "id": "36",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -451,6 +488,7 @@
                 "id": "37",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -463,6 +501,7 @@
                 "id": "38",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -475,6 +514,7 @@
                 "id": "39",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -487,6 +527,7 @@
                 "id": "40",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -499,6 +540,7 @@
                 "id": "41",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -511,6 +553,7 @@
                 "id": "42",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -523,6 +566,7 @@
                 "id": "43",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -535,6 +579,7 @@
                 "id": "44",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -547,6 +592,7 @@
                 "id": "45",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -559,6 +605,7 @@
                 "id": "46",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -571,6 +618,7 @@
                 "id": "47",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -583,6 +631,7 @@
                 "id": "48",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -595,6 +644,7 @@
                 "id": "49",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -607,6 +657,7 @@
                 "id": "50",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -621,6 +672,7 @@
                 "id": "51",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -632,6 +684,7 @@
                 "id": "52",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -644,6 +697,7 @@
                 "id": "53",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -656,6 +710,7 @@
                 "id": "54",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -668,6 +723,7 @@
                 "id": "55",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -680,6 +736,7 @@
                 "id": "56",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -692,6 +749,7 @@
                 "id": "57",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -704,6 +762,7 @@
                 "id": "58",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -716,6 +775,7 @@
                 "id": "59",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -728,6 +788,7 @@
                 "id": "60",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -740,6 +801,7 @@
                 "id": "61",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -752,6 +814,7 @@
                 "id": "62",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -764,6 +827,7 @@
                 "id": "63",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -776,6 +840,7 @@
                 "id": "64",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -788,6 +853,7 @@
                 "id": "65",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -800,6 +866,7 @@
                 "id": "66",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -812,6 +879,7 @@
                 "id": "67",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -826,6 +894,7 @@
                 "id": "68",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -837,6 +906,7 @@
                 "id": "69",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -849,6 +919,7 @@
                 "id": "70",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -861,6 +932,7 @@
                 "id": "71",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -873,6 +945,7 @@
                 "id": "72",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -885,6 +958,7 @@
                 "id": "73",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -897,6 +971,7 @@
                 "id": "74",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -909,6 +984,7 @@
                 "id": "75",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -921,6 +997,7 @@
                 "id": "76",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -933,6 +1010,7 @@
                 "id": "77",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -945,6 +1023,7 @@
                 "id": "78",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -957,6 +1036,7 @@
                 "id": "79",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -969,6 +1049,7 @@
                 "id": "80",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -981,6 +1062,7 @@
                 "id": "81",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -993,6 +1075,7 @@
                 "id": "82",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1005,6 +1088,7 @@
                 "id": "83",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1017,6 +1101,7 @@
                 "id": "84",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1031,6 +1116,7 @@
                 "id": "85",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1042,6 +1128,7 @@
                 "id": "86",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1054,6 +1141,7 @@
                 "id": "87",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1066,6 +1154,7 @@
                 "id": "88",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1078,6 +1167,7 @@
                 "id": "89",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1090,6 +1180,7 @@
                 "id": "90",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1102,6 +1193,7 @@
                 "id": "91",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1114,6 +1206,7 @@
                 "id": "92",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1126,6 +1219,7 @@
                 "id": "93",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1138,6 +1232,7 @@
                 "id": "94",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1150,6 +1245,7 @@
                 "id": "95",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1162,6 +1258,7 @@
                 "id": "96",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1174,6 +1271,7 @@
                 "id": "97",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1186,6 +1284,7 @@
                 "id": "98",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1198,6 +1297,7 @@
                 "id": "99",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1210,6 +1310,7 @@
                 "id": "100",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1222,6 +1323,7 @@
                 "id": "101",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1236,6 +1338,7 @@
                 "id": "102",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1247,6 +1350,7 @@
                 "id": "103",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1259,6 +1363,7 @@
                 "id": "104",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1271,6 +1376,7 @@
                 "id": "105",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1283,6 +1389,7 @@
                 "id": "106",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1295,6 +1402,7 @@
                 "id": "107",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1307,6 +1415,7 @@
                 "id": "108",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1319,6 +1428,7 @@
                 "id": "109",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1331,6 +1441,7 @@
                 "id": "110",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1343,6 +1454,7 @@
                 "id": "111",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1355,6 +1467,7 @@
                 "id": "112",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1367,6 +1480,7 @@
                 "id": "113",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1379,6 +1493,7 @@
                 "id": "114",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1391,6 +1506,7 @@
                 "id": "115",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1403,6 +1519,7 @@
                 "id": "116",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1415,6 +1532,7 @@
                 "id": "117",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1427,6 +1545,7 @@
                 "id": "118",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1441,6 +1560,7 @@
                 "id": "119",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1452,6 +1572,7 @@
                 "id": "120",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1464,6 +1585,7 @@
                 "id": "121",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1476,6 +1598,7 @@
                 "id": "122",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1488,6 +1611,7 @@
                 "id": "123",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1500,6 +1624,7 @@
                 "id": "124",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1512,6 +1637,7 @@
                 "id": "125",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1524,6 +1650,7 @@
                 "id": "126",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1536,6 +1663,7 @@
                 "id": "127",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1548,6 +1676,7 @@
                 "id": "128",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1560,6 +1689,7 @@
                 "id": "129",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1572,6 +1702,7 @@
                 "id": "130",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1584,6 +1715,7 @@
                 "id": "131",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1596,6 +1728,7 @@
                 "id": "132",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1608,6 +1741,7 @@
                 "id": "133",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1620,6 +1754,7 @@
                 "id": "134",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1632,6 +1767,7 @@
                 "id": "135",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1646,6 +1782,7 @@
                 "id": "136",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1657,6 +1794,7 @@
                 "id": "137",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1669,6 +1807,7 @@
                 "id": "138",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1681,6 +1820,7 @@
                 "id": "139",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1693,6 +1833,7 @@
                 "id": "140",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1705,6 +1846,7 @@
                 "id": "141",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1717,6 +1859,7 @@
                 "id": "142",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1729,6 +1872,7 @@
                 "id": "143",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1741,6 +1885,7 @@
                 "id": "144",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1753,6 +1898,7 @@
                 "id": "145",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1765,6 +1911,7 @@
                 "id": "146",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1777,6 +1924,7 @@
                 "id": "147",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1789,6 +1937,7 @@
                 "id": "148",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1801,6 +1950,7 @@
                 "id": "149",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "Orruks",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1813,6 +1963,7 @@
                 "id": "150",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1825,6 +1976,7 @@
                 "id": "151",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1837,6 +1989,7 @@
                 "id": "152",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1851,6 +2004,7 @@
                 "id": "153",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1862,6 +2016,7 @@
                 "id": "154",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1874,6 +2029,7 @@
                 "id": "155",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1886,6 +2042,7 @@
                 "id": "156",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1898,6 +2055,7 @@
                 "id": "157",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1910,6 +2068,7 @@
                 "id": "158",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1922,6 +2081,7 @@
                 "id": "159",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1934,6 +2094,7 @@
                 "id": "160",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1946,6 +2107,7 @@
                 "id": "161",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1958,6 +2120,7 @@
                 "id": "162",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1970,6 +2133,7 @@
                 "id": "163",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1982,6 +2146,7 @@
                 "id": "164",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -1994,6 +2159,7 @@
                 "id": "165",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2006,6 +2172,7 @@
                 "id": "166",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2018,6 +2185,7 @@
                 "id": "167",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2030,6 +2198,7 @@
                 "id": "168",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2042,6 +2211,7 @@
                 "id": "169",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2056,6 +2226,7 @@
                 "id": "170",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2067,6 +2238,7 @@
                 "id": "171",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2079,6 +2251,7 @@
                 "id": "172",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2091,6 +2264,7 @@
                 "id": "173",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2103,6 +2277,7 @@
                 "id": "174",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2115,6 +2290,7 @@
                 "id": "175",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2127,6 +2303,7 @@
                 "id": "176",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2139,6 +2316,7 @@
                 "id": "177",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2151,6 +2329,7 @@
                 "id": "178",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2163,6 +2342,7 @@
                 "id": "179",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2175,6 +2355,7 @@
                 "id": "180",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2187,6 +2368,7 @@
                 "id": "181",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2199,6 +2381,7 @@
                 "id": "182",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2211,6 +2394,7 @@
                 "id": "183",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2223,6 +2407,7 @@
                 "id": "184",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2235,6 +2420,7 @@
                 "id": "185",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2247,6 +2433,7 @@
                 "id": "186",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2261,6 +2448,7 @@
                 "id": "187",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2272,6 +2460,7 @@
                 "id": "188",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2284,6 +2473,7 @@
                 "id": "189",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2296,6 +2486,7 @@
                 "id": "190",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2308,6 +2499,7 @@
                 "id": "191",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2320,6 +2512,7 @@
                 "id": "192",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2332,6 +2525,7 @@
                 "id": "193",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2344,6 +2538,7 @@
                 "id": "194",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2356,6 +2551,7 @@
                 "id": "195",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2368,6 +2564,7 @@
                 "id": "196",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2380,6 +2577,7 @@
                 "id": "197",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2392,6 +2590,7 @@
                 "id": "198",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2404,6 +2603,7 @@
                 "id": "199",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2416,6 +2616,7 @@
                 "id": "200",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2428,6 +2629,7 @@
                 "id": "201",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2440,6 +2642,7 @@
                 "id": "202",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2452,6 +2655,7 @@
                 "id": "203",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2466,6 +2670,7 @@
                 "id": "204",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2477,6 +2682,7 @@
                 "id": "205",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2489,6 +2695,7 @@
                 "id": "206",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2501,6 +2708,7 @@
                 "id": "207",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2513,6 +2721,7 @@
                 "id": "208",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2525,6 +2734,7 @@
                 "id": "209",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2537,6 +2747,7 @@
                 "id": "210",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2549,6 +2760,7 @@
                 "id": "211",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2561,6 +2773,7 @@
                 "id": "212",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2573,6 +2786,7 @@
                 "id": "213",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2585,6 +2799,7 @@
                 "id": "214",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2597,6 +2812,7 @@
                 "id": "215",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2609,6 +2825,7 @@
                 "id": "216",
                 "income": ".50",
                 "terrain": "sea",
+                                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2621,6 +2838,7 @@
                 "id": "217",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2633,6 +2851,7 @@
                 "id": "218",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2645,6 +2864,7 @@
                 "id": "219",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2657,6 +2877,7 @@
                 "id": "220",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2671,6 +2892,7 @@
                 "id": "221",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2682,6 +2904,7 @@
                 "id": "222",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2694,6 +2917,7 @@
                 "id": "223",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2706,6 +2930,7 @@
                 "id": "224",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2718,6 +2943,7 @@
                 "id": "225",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2730,6 +2956,7 @@
                 "id": "226",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2742,6 +2969,7 @@
                 "id": "227",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2754,6 +2982,7 @@
                 "id": "228",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2766,6 +2995,7 @@
                 "id": "229",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2778,6 +3008,7 @@
                 "id": "230",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2790,6 +3021,7 @@
                 "id": "231",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2802,6 +3034,7 @@
                 "id": "232",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2814,6 +3047,7 @@
                 "id": "233",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2826,6 +3060,7 @@
                 "id": "234",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2838,6 +3073,7 @@
                 "id": "235",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2850,6 +3086,7 @@
                 "id": "236",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2862,6 +3099,7 @@
                 "id": "237",
                 "income": ".50",
                 "terrain": "sea",
+                "ownedFaction": "",
                 "army": {
                     "isArmy": false,
                     "currentArmy": []
@@ -2876,16 +3114,16 @@
         "orks": [
             {   "id": "ork-1",
                 "armyList": [],
-                "x": 0,
-                "y": 0,
+                "x": 13,
+                "y": 8,
                 "points": 0
             }
         ],
         "sigmar":[
                 {"id": "sig-1",
                 "armyList": [],
-                "x": 0,
-                "y": 0,
+                "x": 7,
+                "y": 1,
                 "points": 0
             }
 

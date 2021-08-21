@@ -1,3 +1,10 @@
+/* colours */
+:root {
+    --opac-orruk-green: rgb(111,151,126, .6);
+    --opac-sigmar-gold: rgb(205, 149, 12, .6);
+    --white: #ffffff;
+  }
+  
 .map__container{
     position: relative;
     overflow-y: scroll;
@@ -8,10 +15,9 @@
     height: 900px;
 }
 
-
 .hex {
     float: left;
-    margin-left: 2.0px;
+    margin-left: 2px;
     margin-bottom: -26px;
 }
 
@@ -21,17 +27,23 @@
     border-left: 54px solid transparent;
     border-right: 52px solid transparent;
 }
+.orruksHex .hex_top{border-bottom: 30px solid var(--opac-orruk-green);}
+.sigmarHex .hex_top {border-bottom: 30px solid var(--opac-sigmar-gold);}
+
 .hex_bottom {
     width: 0;
     border-top: 33px solid transparent;
     border-left: 56px solid transparent;
     border-right: 52px solid transparent;
 }
-.hex_body{
-    width: 108px;
-    height: 61px;
-    background-color: transparent;
-}
+.orruksHex .hex_bottom {border-top: 33px solid var(--opac-orruk-green);}
+.sigmarHex .hex_bottom {border-top: 33px solid var(--opac-sigmar-gold);}
+
+.hex_body{background-color: transparent;}
+
+.orruksHex .hex_body { background-color: var(--opac-orruk-green);}
+.sigmarHex .hex_body {background-color: var(--opac-sigmar-gold);}
+
 .hex__container {
     clear: left;
     position: absolute;
@@ -94,7 +106,6 @@
     margin-left: 76px;
 }
 .army__icon{
-    width: 50px;
-    height: 50px;
-    
+    width: 60px;
+    height: 62px;
 }

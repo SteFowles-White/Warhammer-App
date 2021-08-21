@@ -114,12 +114,21 @@ const Hex = (props) => {
       }
     }
   };
+  const hexOwnerHander = () => {
+    if(data.ownedFaction === 'Orruks'){
+      return 'hex orruksHex';
+    }else if(data.ownedFaction === 'Sigmar') {
+      return 'hex sigmarHex';
+    }else{
+      return 'hex';
+    }
+  }
 
   const dragHandler = (e) => {
     e.preventDefault();
   };
   return (
-    <div className="hex">
+    <div className={hexOwnerHander()}>
       <div className="hex_top"></div>
       <div
         className="hex_body"

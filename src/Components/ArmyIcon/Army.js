@@ -2,7 +2,6 @@ import React from 'react';
 import orkImage from '../../assets/images/ork-army.png'
 
 const Army = (props) => {
-    console.log(props.armyPoints)
     const getLocationHandler = (e) => {
         e.dataTransfer.setData("text/plain", 
         `{"x": "${e.target.getAttribute('x')}", "y": "${e.target.getAttribute('y')}", "id": "${props.idName}", "points": "${props.armyPoints}", "hexId": "${props.idHex}" }`);
