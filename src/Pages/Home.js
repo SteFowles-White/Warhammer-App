@@ -1,18 +1,9 @@
 import React from "react";
 import CampagnImage from '../assets/images/BattleCompanies_MapCampaign.jpg'
 import HexContainer from "../Components/Hex/HexContainer.js";
-import useDataAPI from '../Hooks/useDataFetchApi';
 
 
-const HomePage = () => {
-
-  let HexMapData = useDataAPI('hexGrid');
-  let mapData = [];
-
-  if(HexMapData !== undefined) {
-    mapData = HexMapData;
-  }
-
+const HomePage = (props) => {
 
   return (
     <main>
@@ -93,7 +84,7 @@ const HomePage = () => {
                 <div className="map__inner__container">
                   <img src={CampagnImage} alt=""/>
                   {
-                    mapData.map((result, key) => {
+                    props.mapData.map((result, key) => {
                         let classNumber = key + 1;
                         return <HexContainer key={key} hex_row={classNumber} data={result}/>
                       })

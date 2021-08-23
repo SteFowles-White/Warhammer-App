@@ -3128,5 +3128,20 @@
             }
 
         ]
+    },
+    "overallGame":{
+        "turn": 0,
+        "armyTurn": [{"ork":
+            {   "totalResource": 0,
+                "totalNumberOfCompanies": 0,
+                "totalPointsOfArmies": 0
+            }}, 
+            {"sigmar": {
+                "totalResource": 0,
+                "totalNumberOfCompanies": 0,
+                "totalPointsOfArmies": 0
+            }}],
+        "year": 0,
+        "week": 0
     }
 }
