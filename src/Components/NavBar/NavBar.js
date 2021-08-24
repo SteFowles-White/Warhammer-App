@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const NavBar = (props) => {
   const [gameInformation, setGameInformation] = useState();
+  const [playerTurn, setTurnPlayer] = useState(0);
 
   useEffect(() => {
     fetch(
@@ -22,6 +23,17 @@ const NavBar = (props) => {
       .finally();
   }, []);
 
+  const onTurnHandler = () => {
+    if(playerTurn === 0) {
+      setTurnPlayer(1);
+      //this is where the update request for all moves and map updates are completed
+    }else if(playerTurn === 1) {
+      setTurnPlayer(0);
+      //this is where the update request for all moves and map updates are completed
+      //Then turn based information is also updated on the database as well
+    }
+  }
+
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -30,10 +42,11 @@ const NavBar = (props) => {
             {gameInformation !== undefined && (
               <div className="col-sm-12">
                 <p>Turn: {gameInformation.turn}</p>
-                <p>Army: {Object.keys(gameInformation.armyTurn[0])}</p>
+                <p>Army: {Object.keys(gameInformation.armyTurn[playerTurn])}</p>
                 <p>Year: {gameInformation.year}</p>
                 <p>Week: {gameInformation.week}</p>
-                <button>End of Turn</button>
+
+                <button type="button" onClick={onTurnHandler}>End of Turn</button>
               </div>
             )}
 
