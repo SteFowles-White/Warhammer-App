@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import useDataFetchApi from "../../Hooks/useDataFetchApi";
 import OrkArmy from "../ArmyIcon/Army";
 // import AppData from '../../Data/app-data';
 // import useArmyData from './../../Hooks/armyDataHook';
@@ -49,25 +48,20 @@ const movementCheck = (armyPointX, armyPointY, mapPointX, mapPointY) => {
 const Hex = (props) => {
   const [armyMovment, setArmyMovment] = useState({ army: {}, moved: false });
   const data = props.data;
-  const fullArmyData = useDataFetchApi("armies");
-  let armyData = [];
   let currentArmy;
 
   // loop though army data to see if there is an army data for that point
   //I did not do this from with setState as did not want the function to rerender
-  if (fullArmyData !== undefined) {
-    armyData.push(fullArmyData);
-    for (const iterator of armyData) {
-      for (const result of iterator) {
-        for (const finalResult of result) {
-          if (finalResult.x === data.x && finalResult.y === data.y) {
-            currentArmy = finalResult;
-          }
+  if (props.armyData !== undefined) {
+    for (const key in props.armyData) {
+      for (const result of props.armyData[key]) {
+        if (result.x === data.x && result.y === data.y) {
+                currentArmy = result;
         }
       }
     }
   }
-
+ 
   useEffect(() => {
     if (armyMovment.moved) {
       localStorage.setItem(`army-${armyMovment.army.id}`, JSON.stringify(armyMovment));
@@ -127,6 +121,7 @@ const Hex = (props) => {
   const dragHandler = (e) => {
     e.preventDefault();
   };
+
   return (
     <div className={hexOwnerHander()}>
       <div className="hex_top"></div>

@@ -1,9 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import CampagnImage from '../assets/images/BattleCompanies_MapCampaign.jpg'
 import HexContainer from "../Components/Hex/HexContainer.js";
 
 
 const HomePage = (props) => {
+  const [getFullArmyData, setFullArmyData] = useState({});
+  const [gotData, setRetrievedData] = useState(false);
+
+  useEffect(() => {
+    fetch('https://warhammer-web-app-default-rtdb.europe-west1.firebasedatabase.app/armies.json')
+    .then(response => {
+      if(response.ok) {
+        return response.json();
+      }
+      throw response
+    }).then(data => {
+      setFullArmyData(data);
+    }
+    ).catch(error => {
+      console.error('Hex error', error)
+    }
+    ).finally(() => {
+      setRetrievedData(true);
+    })
+  }, [])
 
   return (
     <main>
@@ -83,10 +103,10 @@ const HomePage = (props) => {
               <section className="col-9 col-sm-9 map__container">
                 <div className="map__inner__container">
                   <img src={CampagnImage} alt=""/>
-                  {
+                  {gotData === true &&
                     props.mapData.map((result, key) => {
                         let classNumber = key + 1;
-                        return <HexContainer key={key} hex_row={classNumber} data={result}/>
+                        return <HexContainer key={key} hex_row={classNumber} data={result} armyData={getFullArmyData}/>
                       })
                     }
 
