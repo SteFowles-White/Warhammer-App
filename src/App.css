@@ -23,7 +23,7 @@
 
 .hex_top {
     width: 0;
-    border-bottom: 30px solid transparent;
+    border-bottom: 30px solid var(--opac-orruk-green);
     border-left: 54px solid transparent;
     border-right: 52px solid transparent;
 }
@@ -35,6 +35,9 @@
     border-top: 33px solid transparent;
     border-left: 56px solid transparent;
     border-right: 52px solid transparent;
+}
+.hex_body {
+    height: 62px;
 }
 .orruksHex .hex_bottom {border-top: 33px solid var(--opac-orruk-green);}
 .sigmarHex .hex_bottom {border-top: 33px solid var(--opac-sigmar-gold);}

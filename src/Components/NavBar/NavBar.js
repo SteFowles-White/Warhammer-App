@@ -25,7 +25,14 @@ const NavBar = (props) => {
 
   const onTurnHandler = () => {
     if(playerTurn === 0) {
+      let getLocalStorage = localStorage;
+      const localstorageLength = getLocalStorage.length;
+
+      console.log(getLocalStorage)
+
       setTurnPlayer(1);
+
+      console.log(localStorage.length)
       //this is where the update request for all moves and map updates are completed
     }else if(playerTurn === 1) {
       setTurnPlayer(0);
