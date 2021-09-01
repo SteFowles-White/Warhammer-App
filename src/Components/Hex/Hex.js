@@ -30,11 +30,6 @@ const Hex = (props) => {
       return 'hex';
     }
   }
-  // useEffect(() => {
-  //   if (armyMovment.moved) {
-  //     localStorage.setItem(`army-${armyMovment.army.id}`, JSON.stringify(armyMovment));
-  //   }
-  // }, [armyMovment]);
 
 
   return (
